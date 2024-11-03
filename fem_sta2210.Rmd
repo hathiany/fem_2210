@@ -1055,7 +1055,7 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 | **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
 | **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
 
-# Introduction to Epidemiological Study designs
+# Introduction to epidemiological study designs
 
 ## Exposures and Outcomes
 
@@ -1069,7 +1069,7 @@ Before looking at the study designs used in epidemiological research, we need to
 
 ## An exposure
 
-As previously mentioned, in epidemiology, the term exposure is used in a very broad sense. It is not limited to an environmental hazard such as air pollution or a chemical but may be something as simple as age!
+As previously mentioned, in epidemiology, the term exposure is used in a very broad sense. It is not limited to an environmental hazard such as air pollution or a chemical but may be something as simple as age! An exposure therefore refers to **any factor** that **may influence** the health status or outcomes of a population.
 
 An exposure may even be a genetic factor such as a blood group or a sickle cell trait.
 
@@ -1096,6 +1096,36 @@ For example;
 In a study of alcohol and lung cancer, an association was observed between high alcohol intake and the risk of lung cancer, then the association may in-part (or wholly) be due to the fact that people with high alcohol consumption are more likely to be smokers (and smoking is a risk factor of lung cancer). Thus, in assessing the relationship between lung cancer and alcohol, smoking would be taken into account.
 
 In this context, smoking is considered to be a confounding factor (a confounder) . In a diagram, this is expressed as follows;
+
+![](images/confounder.jpeg){width="349"}
+
+Exposures can include environmental factors, lifestyle choices, infectious agents, and more. Here are a few common examples:
+
+1.  **Tobacco Smoking**: Exposure to cigarette smoke, either through active smoking or secondhand smoke, is a well-studied exposure linked to various health outcomes, such as lung cancer, heart disease, and respiratory conditions.
+
+2.  **Air Pollution**: Exposure to pollutants like particulate matter (PM2.5), nitrogen dioxide (NO₂), and sulfur dioxide (SO₂) in the air can affect respiratory and cardiovascular health. Studies often examine populations in high-pollution areas to assess the impact of air quality on health.
+
+3.  **Physical Activity**: Levels of physical activity can be considered an exposure in studies examining associations between exercise and health outcomes, such as obesity, diabetes, and cardiovascular disease.
+
+4.  **Dietary Habits**: Dietary patterns, such as high sugar or salt intake, vegetarianism, or the Mediterranean diet, are exposures that can influence the risk of chronic diseases like diabetes, hypertension, and cancer.
+
+5.  **Exposure to Infectious Agents**: Being in contact with a specific pathogen (e.g., the influenza virus, tuberculosis bacteria, or SARS-CoV-2) is considered an exposure when studying the spread of infectious diseases or immunity development.
+
+6.  **Occupational Hazards**: Exposures to certain chemicals, noise, or repetitive motion in the workplace are often studied in occupational health to assess risks of conditions like hearing loss, musculoskeletal disorders, or chemical toxicity.
+
+## An outcome
+
+The term outcome as used in epidemiology is also a broad term. At times, we refers to this as **disease** but implies several outcomes.
+
+Death is an easily defined and important outcome. A specific disease or event a state of health may also be defined as an outcome in a study. In some studies, there are multiple outcomes, just as we also saw that it is possible to have multiple exposures.
+
+For instance, in a study of malaria, the outcomes could be **asymptomatic infection**; **fever with positive blood slide** and/or **cerebral malaria**. In these definitions, the degree of severity is an important component to help in distinguishing the definitions.
+
+Note: A final point to note here is that a factor may be an outcome in one study and an exposure in another study. For instance, low birth weight (lbw) (bw \<2500gm) can be an outcome of interest in a study investigating determinants of poor foetal growth, and it can be the primary exposure in another study investigating the effect of poor foetal growth on mortality later in life.
+
+## Study designs
+
+The first step in an epidemiological design is to define the hypothesis that you wish to test. This should be done in a way that makes clear what the primary exposure, the outcome and the potential confounders in the study are. **One most then choose the most appropriate design**
 
 # Interpretation of Epidemiological Studies
 
