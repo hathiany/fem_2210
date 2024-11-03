@@ -1,9 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
-
 # STA 2210 - Fundamentals of Epidemiological Methods
 
 ## Course Outline
