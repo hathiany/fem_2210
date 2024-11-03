@@ -38,6 +38,7 @@ library(e1071)
 library(lattice)
 library(ggplot2)
 library(mvtnorm)
+#library(tinytex)
 ```
 
 # Introduction
@@ -1055,6 +1056,46 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 | **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
 
 # Introduction to Epidemiological Study designs
+
+## Exposures and Outcomes
+
+Before looking at the study designs used in epidemiological research, we need to consider what is being studied. In an epidemiological study, there is;
+
+\- the [**primary exposure**]{.underline} (or risk factor f interest)
+
+\- [**other exposures**]{.underline} or risk factors that may influence the outcome of interest (aka potential confounders)
+
+\- the [**outcome**]{.underline} of interest
+
+## An exposure
+
+As previously mentioned, in epidemiology, the term exposure is used in a very broad sense. It is not limited to an environmental hazard such as air pollution or a chemical but may be something as simple as age!
+
+An exposure may even be a genetic factor such as a blood group or a sickle cell trait.
+
+The primary exposure of interest is therefore the one which is included in the hypothesis.
+
+For example:
+
+-   If the hypothesis is that **aflatoxin[^1]** causes liver cancer, then aflatoxin is the **primary exposure** of interest in this case.
+
+-   On the other hand, if the hypothesis is that an **individuals ability** to metabolize aflatoxin determines the risk of liver cancer, then the metabolic enzyme phenotype/genotype is the **primary exposure** of interest.
+
+[^1]: Aflatoxins are a family of toxins produced by certain fungi that are found on agricultural crops such as maize (corn), peanuts, cottonseed, and tree nuts
+
+There may also be more than one exposure, for example; if a study has been set up to examine the hypothesis that alcohol is a cause of liver cancer **independent** of smoking, the one clearly has to measure smoking exposure as well as alcohol consumption. In this case, smoking is a [**potential confounder**]{.underline} as it "may get in the way" when studying the relationship of alcohol consumption and lung cancer.
+
+However, awareness of the existence of confounding is crucial to any discussion of epidemiological studies. Indeed, many of the study designs in epidemiology **are built around the control of confounding**. Briefly, for a factor to be regarded as a confounder, the rules are;
+
+1.  the factor **must be associated** with the exposure of interest being investigated.
+
+2.  the factor **must independently be associated** with the risk of developing the outcome of interest.
+
+For example;
+
+In a study of alcohol and lung cancer, an association was observed between high alcohol intake and the risk of lung cancer, then the association may in-part (or wholly) be due to the fact that people with high alcohol consumption are more likely to be smokers (and smoking is a risk factor of lung cancer). Thus, in assessing the relationship between lung cancer and alcohol, smoking would be taken into account.
+
+In this context, smoking is considered to be a confounding factor (a confounder) . In a diagram, this is expressed as follows;
 
 # Interpretation of Epidemiological Studies
 
