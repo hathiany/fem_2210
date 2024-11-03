@@ -1,1 +1,1 @@
-# fem_2210
+# STA 2210 - Fundamentals of Epidemiological Methods
