@@ -1056,7 +1056,6 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 
 # Introduction to Epidemiological Study designs
 
-
 # **Useful links / Recommended books**
 
 While preparing these notes, I have benefited from various authors and would like to share some of the details as follows
