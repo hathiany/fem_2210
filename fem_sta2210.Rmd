@@ -3,7 +3,7 @@ title:  "Fundamentals of Epidemiological Methods"
 author:
 - name: Henry Athiany
   affiliation: JKUAT, Kenya
-subtitle:  Class notes - Recap for Previous Lecture
+#subtitle:  Class notes - Recap for Previous Lecture
 date: September - December, 2024
 output:
   rmdformats::readthedown:
@@ -1126,6 +1126,86 @@ Note: A final point to note here is that a factor may be an outcome in one study
 ## Study designs
 
 The first step in an epidemiological design is to define the hypothesis that you wish to test. This should be done in a way that makes clear what the primary exposure, the outcome and the potential confounders in the study are. **One most then choose the most appropriate design**
+
+**A study design is a structure which guides the way in which a study is conducted.** Each study design has its own internal logic and is suited for various types of **research questions**. To appreciate the variety of study designs and their varied uses one would have to revisit why anyone would want to conduct an epidemiological study.
+
+Thus, one would conduct an Epidemiological Study in order:
+
+-   To describe health and ill-health (disease) conditions in a comprehensive manner, that is;
+
+    -   What is the disease, how does it manifest, what is it’s progression and prognosis
+
+    -   Who gets the disease (which groups of people)
+
+    -    Where does it occur (in which area is it more common or more severe)
+
+    -   When does it occur (is it seasonal, has it changed over time)
+
+-   To assess if there is an association with an exposure and an ill-health condition;
+
+    -   Does an exposure (smoking, bacteria) cause a disease
+
+    -   Does an exposure (vaccination, diet) prevent a disease
+
+    -    Does an exposure improve/cure (insulin, antibiotic) a disease
+
+The various study designs were then each developed to **accomplish one or more of the above objectives**. However there are **two broad categories** of epidemiological studies. Epidemiological studies can be either:
+
+1.  Observational studies
+
+2.  Intervention Studies
+
+This can be represented in a diagrammatic format as follows
+
+![](images/study_designs.jpeg){width="673"}
+
+### Observational studies
+
+In **Observational Studies** the researcher merely observes things (e.g. being exposed to contaminated drinking water) that have occurred amongst a group and then (almost always) compares them to another group without that occurrence (e.g. had uncontaminated drinking water) and then checks if that thing (contaminated drinking water in this example) might have been responsible for different levels of disease (e.g. gastroenteritis in this example) or different levels of good health.
+
+Simply put, these studies collect information on events which we have no control over. We are simply observing what is happening or what happened in the past.
+
+A useful way to classify observational studies is to first group them into those where data is collected from **populations or groups (aggregated data)** andthose where data is collected from **individuals**. Further, we could also split the designs into those where the outcome of interest is described with no reference to the exposure (**descriptive studies)** and those where exposure and its association with the outcome of interest is considered (**analytical studies**).
+
+Although this is a useful way to classify studies, sometimes there may be an overlap. For instance, some cross-sectional and cohort studies may be **both descriptive and analytical** as shown in the diagram (with dotted lines).
+
+#### a) Descriptive studies using grouped/aggregated data
+
+These studies examine disease/outcome occurrence by age, sex region, time period (person, place and time).
+
+No exposure is determined in theses studies and they often make use of routinely collected data such as National Mortality or, say cancer incidence rates.
+
+#### b) Ecological studies
+
+An **ecological study** is a type of observational study design used in epidemiology to examine the relationships between exposures and outcomes at the **population or group level** rather than at the individual level.
+
+These studies describe disease (outcome) in the population or groups as show in the diagram, but also include information on the exposure. The studies are therefore **analytical** in nature.
+
+The average (or other summary) statistic is plotted for the exposure against the rate/outcome of that population.
+
+This is done for several populations and the data are examined for evidence of an association between exposure and the outcome.
+
+This study design is often useful for generating hypotheses, especially in situations where individual-level data may be challenging to obtain.
+
+**Key Features of Ecological Studies**
+
+1.  **Group-Level Data**: In ecological studies, data on exposures and outcomes are collected and analyzed for groups (such as countries, cities, schools, or communities) rather than individuals. For instance, you might look at the average dietary intake of sugar in different countries and correlate it with national rates of diabetes.
+
+2.  **Ecological Fallacy**: This is a common limitation of ecological studies. It occurs when assumptions about individual-level associations are made based on group-level data. For example, if a country has high average alcohol consumption and high rates of liver disease, it does not mean that individuals who drink more alcohol are necessarily the ones with liver disease.
+
+3.  **Uses of Ecological Studies**:
+
+    -   **Hypothesis Generation**: They are often used as preliminary studies to identify potential associations that can be explored in more detailed individual-level studies.
+
+    -   **Policy and Public Health Planning**: They help inform policies by identifying trends in exposures and outcomes at a population level, which can aid in public health interventions.
+
+    -   **Large-Scale Associations**: Ecological studies are useful for studying exposures that are not feasible to measure at the individual level (e.g., air pollution levels across a city).
+
+4.  **Limitations**:
+
+    -   **Confounding**: There may be unmeasured factors that influence the association at the group level.
+
+    -   **Lack of Individual-Level Data**: Associations found at the group level may not hold true for individuals within those groups, which limits the ability to draw conclusions about cause and effect.
 
 # Interpretation of Epidemiological Studies
 
