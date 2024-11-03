@@ -1379,7 +1379,7 @@ Some of the types of cohorts include
 
 -   marriage cohort
 
-##### All study designs
+##### A pictorial illustration of the study designs considered 
 
 | Cross-sectional | Cohort | Case-Control | Experimental |
 |----|----|----|----|
