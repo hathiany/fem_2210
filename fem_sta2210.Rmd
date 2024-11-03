@@ -1157,11 +1157,11 @@ The various study designs were then each developed to **accomplish one or more o
 
 This can be represented in a diagrammatic format as follows
 
-![](images/study_designs.jpeg){width="673"}
+![](images/study_designs.jpeg){width="470"}
 
 ### Observational studies
 
-In **Observational Studies** the researcher merely observes things (e.g. being exposed to contaminated drinking water) that have occurred amongst a group and then (almost always) compares them to another group without that occurrence (e.g. had uncontaminated drinking water) and then checks if that thing (contaminated drinking water in this example) might have been responsible for different levels of disease (e.g. gastroenteritis in this example) or different levels of good health.
+In **observational studies** the researcher merely observes things (e.g. being exposed to contaminated drinking water) that have occurred amongst a group and then (almost always) compares them to another group without that occurrence (e.g. had uncontaminated drinking water) and then checks if that thing (contaminated drinking water in this example) might have been responsible for different levels of disease (e.g. gastroenteritis in this example) or different levels of good health.
 
 Simply put, these studies collect information on events which we have no control over. We are simply observing what is happening or what happened in the past.
 
@@ -1169,13 +1169,13 @@ A useful way to classify observational studies is to first group them into those
 
 Although this is a useful way to classify studies, sometimes there may be an overlap. For instance, some cross-sectional and cohort studies may be **both descriptive and analytical** as shown in the diagram (with dotted lines).
 
-#### a) Descriptive studies using grouped/aggregated data
+#### Descriptive studies using grouped/aggregated data
 
 These studies examine disease/outcome occurrence by age, sex region, time period (person, place and time).
 
 No exposure is determined in theses studies and they often make use of routinely collected data such as National Mortality or, say cancer incidence rates.
 
-#### b) Ecological studies
+##### Ecological studies
 
 An **ecological study** is a type of observational study design used in epidemiology to examine the relationships between exposures and outcomes at the **population or group level** rather than at the individual level.
 
@@ -1193,7 +1193,7 @@ This study design is often useful for generating hypotheses, especially in situa
 
 2.  **Ecological Fallacy**: This is a common limitation of ecological studies. It occurs when assumptions about individual-level associations are made based on group-level data. For example, if a country has high average alcohol consumption and high rates of liver disease, it does not mean that individuals who drink more alcohol are necessarily the ones with liver disease.
 
-3.  **Uses of Ecological Studies**:
+3.  **Uses of Ecological Studies**
 
     -   **Hypothesis Generation**: They are often used as preliminary studies to identify potential associations that can be explored in more detailed individual-level studies.
 
@@ -1201,11 +1201,183 @@ This study design is often useful for generating hypotheses, especially in situa
 
     -   **Large-Scale Associations**: Ecological studies are useful for studying exposures that are not feasible to measure at the individual level (e.g., air pollution levels across a city).
 
-4.  **Limitations**:
+4.  **Limitations**
 
     -   **Confounding**: There may be unmeasured factors that influence the association at the group level.
 
     -   **Lack of Individual-Level Data**: Associations found at the group level may not hold true for individuals within those groups, which limits the ability to draw conclusions about cause and effect.
+
+**Example of an Ecological Study**
+
+**Study Objective**: Investigate the association between average sodium intake and hypertension prevalence across different countries.
+
+**Method**
+
+-   **Data Collection**: Collect data on average daily sodium intake from dietary surveys conducted in various countries. Simultaneously, obtain data on hypertension prevalence from national health statistics or WHO data.
+
+-   **Analysis**: Compare the average sodium intake with the hypertension prevalence across countries to see if there’s a correlation.
+
+**Findings**
+
+-   Suppose the study finds that countries with higher average sodium intake also have higher rates of hypertension.
+
+**Interpretation**
+
+-   This association may suggest that high sodium intake could be a risk factor for hypertension at the population level. However, further individual-level studies would be needed to confirm the relationship and understand individual susceptibility.
+
+**Considerations**
+
+-   **Ecological Fallacy**: Even if countries with high sodium intake show high hypertension rates, not all individuals in these countries consume high levels of sodium, nor do they all have hypertension.
+
+-   **Confounding Variables**: Other factors, such as physical activity levels, dietary patterns, healthcare access, and genetic factors, might also influence hypertension prevalence.
+
+**Note**: It is important to understand that the only conclusion one can draw from these studies relates to the population . *It is therefore not possible from an ecological study to draw conclusions about exposure in the individual and the risk of the outcome.* Attempting to do this will result in what we call [**ecological fallacy**]{.underline}.
+
+**In summary**
+
+Ecological studies provide valuable insights into population-level patterns and associations and are often used in public health research and policy-making. However, they should be interpreted cautiously, especially when considering their limitations, such as the potential for **ecological fallacy** and confounding.
+
+##### Cross-sectional studies
+
+A **cross-sectional study** is a type of observational study design in epidemiology where researchers collect data on exposure(s) and outcome(s) at a single point in time, or over a very short period, from a defined population.
+
+This type of study provides a **"snapshot"** of the health status or characteristics of a population, making it useful for assessing the **prevalence** of diseases or conditions
+
+![](images/clipboard-4122457518.png){width="338"}
+
+The prevalence of the outcome can be measured without reference to the exposure, for instance;
+
+"the percentage % of JKUAT students suffering from headache on a particular day"
+
+**or** the prevalence of exposure may be measured without reference to the disease or outcome.
+
+"the % persons under 18 years in Nairobi who have used illegal drugs in the past"
+
+These studies are classified as descriptive because the outcome is **not** reported in relation to the exposure or the exposure is **not** reported in relation to the outcome.
+
+However, if the prevalence of disease is measured in those with and those without he expensive of interest then the study is classified as analytical.
+
+Cross-sectional studies are relatively simple to conduct and takes only a short time and are relatively cheap. For this reason, they are frequently used for planning purposes. However, they have the major drawback that the can be difficult to interpret as its not possible to know whether the outcome followed the exposure in time or the exposure resulted fro the outcome.
+
+![](images/clipboard-2896626650.png){width="421"}
+
+**Key Features of Cross-Sectional Studies**
+
+1.  **Single Point in Time**: Data on both the exposure and outcome are collected simultaneously, making it impossible to determine causality. Instead, cross-sectional studies measure the prevalence of an outcome or exposure.
+
+2.  **Prevalence Measurement**: Cross-sectional studies are often used to estimate the prevalence of diseases, behaviors, risk factors, or health conditions in a population. This can provide important public health information, such as the percentage of a population that smokes, has diabetes, or is obese.
+
+3.  **Population-Based**: Cross-sectional studies can be conducted on entire populations, random samples, or specific subgroups. If the sample is representative, the results can be generalized to a broader population.
+
+4.  **Efficiency**: These studies are generally quicker and less expensive than longitudinal studies, as they require only one set of data collection.
+
+5.  **Limitation - Temporal Ambiguity**: Since exposure and outcome are measured simultaneously, it’s unclear whether the exposure preceded the outcome or vice versa. This limits the ability to draw causal inferences.
+
+**When to Use Cross-Sectional Studies**
+
+-   **Estimating Prevalence**: When the main goal is to determine how common a condition or behavior is within a population.
+
+-   **Exploring Associations**: They can reveal potential associations between exposure and outcome, although these are not causative.
+
+-   **Public Health Planning**: Useful for identifying risk factors and determining where to allocate public health resources.
+
+-   **Generating Hypotheses**: Can be used as a basis for further longitudinal studies that investigate causation.
+
+**Example of a Cross-Sectional Study**
+
+1.  **Objective**: Assess the prevalence of hypertension and its association with obesity in a community.
+
+**Method**:
+
+-   **Population Selection**: Randomly select a sample of adults from a community.
+
+-   **Data Collection**: At a single clinic visit, measure each participant’s blood pressure and body mass index (BMI).
+
+-   **Analysis**: Calculate the prevalence of hypertension and obesity. Then, analyze whether hypertension is more common among individuals who are obese.
+
+**Findings**
+
+-   Suppose the study finds that 25% of the participants have hypertension and that hypertension is more common among individuals with obesity.
+
+**Interpretation**:
+
+-   This cross-sectional study provides data on how common hypertension is in this community and suggests an association between hypertension and obesity. However, since it’s cross-sectional, it cannot prove that obesity causes hypertension.
+
+2.  **Schizophrenia** will often result in an inability to hold down a job or may impair the ability of the person to hold a responsible job.
+
+    In this situation cross-sectional studies might show that people with this disease have low economic status. This could be misinteprated as being in a lower social class increases the risk of **Schizophrenia** when in fact the occupational status was determined by the disease.
+
+In reality one would not use cross-sectional study to examine this question because the disease is too uncommon. Meaning, it would be necessary to survey a very large population in order to have sufficient people with the outcome to draw any conclusion. Therefore, cross-sectional surveys are used to estimate the prevalence of common conditions of a reasonably long duration or to determine the distribution of continuous variables within a population.
+
+Here is a good picture illustrating the example above
+
+![](images/clipboard-936893105.png){width="357"}
+
+3 A cross-sectional study was conducted among 1,000 factory workers to examine the prevalence of respiratory disease in relation to smoking status. Out of the 1,000 workers:
+
+-   400 are smokers, and among them, 120 have respiratory disease.
+
+-   600 are non-smokers, and among them, 90 have respiratory disease.
+
+1.  **Calculate the prevalence of respiratory disease among smokers.**
+
+    ![](images/clipboard-4066762556.png){width="530"}
+
+2.  **Calculate the prevalence of respiratory disease among non-smokers.**
+
+    ![](images/clipboard-4102866092.png){width="641"}
+
+3.  **Calculate the prevalence ratio** to compare the prevalence of respiratory disease between smokers and non-smokers.
+
+    ![](images/clipboard-1753717508.png){width="555"}
+
+4.  **Interpret the prevalence ratio** in the context of this study.
+
+    The prevalence ratio of 2.0 suggests that the prevalence of respiratory disease among smokers is **twice as high** as it is among non-smokers in this population of factory workers. This indicates a possible association between smoking and respiratory disease, but [**causality cannot be determined from a cross-sectional study**]{.underline}.
+
+**Advantages of Cross-Sectional Studies**
+
+-   **Quick and Cost-Effective**: Typically easier and less costly than studies requiring multiple follow-ups.
+
+-   **Useful for Prevalence Data**: Provides valuable information on the current state of health or risk factors in a population.
+
+-   **Good for Multiple Outcomes**: Can simultaneously assess several outcomes and exposures.
+
+-   Relatively easy to analyse
+
+**Disadvantages of Cross-Sectional Studies**
+
+-   **No Causality**: Temporal ambiguity prevents determination of cause-and-effect relationships.
+
+-   **Susceptibility to Bias**: Selection bias and recall bias (if self-reported data is used) can influence results.
+
+-   **Cannot Measure Incidence**: Only prevalence is measured, which doesn’t reflect new cases over time.
+
+**Exercise**
+
+A researcher conducts a cross-sectional study to investigate the relationship between physical activity and mental health among university students. The researcher surveys a random sample of students and collects data on the number of hours each student spends on physical activity per week and their mental health status (measured through a validated questionnaire).
+
+1.  What type of information can the researcher obtain from this cross-sectional study?
+
+2.  What are two advantages of using a cross-sectional study design for this research?
+
+3.  Identify two limitations of this study design and explain how these limitations might affect the interpretation of the results.
+
+4.  If the study finds an association between higher physical activity and better mental health, can the researcher conclude that physical activity improves mental health? Why or why not?
+
+##### Cohort studies
+
+**What is a cohort?**
+
+A cohort is a group of persons with a common characteristic within defined time period. e.g. people born at the same time, period e.tc.
+
+Some of the types of cohorts include
+
+-   birth cohort
+
+-   exposure cohort
+
+-   marriage cohort
 
 # Interpretation of Epidemiological Studies
 
