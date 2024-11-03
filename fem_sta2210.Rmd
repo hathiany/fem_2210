@@ -1048,13 +1048,15 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 ## **Key differences between measures of association and measures of effect**
 
 | Aspect | Measure of association | Measure of effect |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Focus** | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease |
 | **Purpose** | Determine if and how strongly exposure is linked to disease | Estimate how much of the disease is caused by the exposure |
 | **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
 | **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
 
 # Introduction to Epidemiological Study designs
+
+# Interpretation of Epidemiological Studies
 
 # **Useful links / Recommended books**
 
