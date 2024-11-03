@@ -1054,6 +1054,8 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 | **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
 | **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
 
+# Introduction to Epidemiological Study designs
+
 
 # **Useful links / Recommended books**
 
