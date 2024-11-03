@@ -1241,7 +1241,7 @@ Ecological studies provide valuable insights into population-level patterns and 
 
 A **cross-sectional study** is a type of observational study design in epidemiology where researchers collect data on exposure(s) and outcome(s) at a single point in time, or over a very short period, from a defined population.
 
-This type of study provides a **"snapshot"** of the health status or characteristics of a population, making it useful for assessing the **prevalence** of diseases or conditions
+This type of study provides a **"snapshot"** of the health status or characteristics of a population, making it useful for assessing the **prevalence** of diseases or conditions. *See the following diagrams*
 
 ![](images/clipboard-4122457518.png){width="338"}
 
@@ -1369,7 +1369,7 @@ A researcher conducts a cross-sectional study to investigate the relationship be
 
 **What is a cohort?**
 
-A cohort is a group of persons with a common characteristic within defined time period. e.g. people born at the same time, period e.tc.
+A cohort is a group of persons (animals) with a common characteristic within defined time period. e.g. people born at the same time, period e.tc.
 
 Some of the types of cohorts include
 
@@ -1378,6 +1378,12 @@ Some of the types of cohorts include
 -   exposure cohort
 
 -   marriage cohort
+
+##### All study designs
+
+| Cross-sectional | Cohort | Case-Control | Experimental |
+|----|----|----|----|
+| ![](images/clipboard-1523767744.png){width="431"} | ![](images/clipboard-1523767744.png) | ![](images/clipboard-2000348032.png){width="441"} | ![](images/clipboard-3915748024.png){width="431"} |
 
 # Interpretation of Epidemiological Studies
 
