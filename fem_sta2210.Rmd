@@ -1393,7 +1393,7 @@ A researcher conducts a cross-sectional study to investigate the relationship be
 
 **What is a cohort?**
 
-A cohort is a group of persons (animals) with a common characteristic within defined time period. e.g. people born at the same time, period e.tc.
+A cohort is a group of persons (animals) with a common characteristic within defined time period. e.g. people born at the same time, period e.t.c.
 
 Some of the types of cohorts include
 
@@ -1402,6 +1402,18 @@ Some of the types of cohorts include
 -   exposure cohort
 
 -   marriage cohort
+
+A **cohort study** therefore is an observational study design in epidemiology where a group of people (or "cohort") is followed over time to observe how **exposure** to certain factors influences the development of specific **outcomes**.
+
+Cohort studies allow researchers to study the incidence and risk of disease, providing valuable insights into causal relationships between **exposures** and **outcomes**
+
+The starting point of a cohort study is the definition of a group of people by their exposure status. For example, one might take a group of smokers and a group of non-smokers. These are followed up for a period of time to see which ones develop a disease/condition such as **gangrene of the leg or requiring an amputation.**
+
+The key features of cohort studies include;
+
+-   **Longitudinal Follow-Up**: Cohort studies are designed to observe participants over a specified period, which may be ***months, years, or even decades***. They measure the incidence (new cases) of a disease or outcome over time.
+
+-   **Exposed vs. Unexposed Groups**: A cohort study typically starts by identifying two groups within the cohort: those who have been exposed to a risk factor or intervention (e.g., smokers) and those who have not (e.g., non-smokers). The study then tracks outcomes in both groups to assess any association with the exposure.
 
 Design steps
 
