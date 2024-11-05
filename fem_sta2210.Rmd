@@ -1049,7 +1049,7 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 ## **Key differences between measures of association and measures of effect**
 
 | Aspect | Measure of association | Measure of effect |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Focus** | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease |
 | **Purpose** | Determine if and how strongly exposure is linked to disease | Estimate how much of the disease is caused by the exposure |
 | **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
@@ -1077,11 +1077,11 @@ The primary exposure of interest is therefore the one which is included in the h
 
 For example:
 
--   If the hypothesis is that **aflatoxin[^1]** causes liver cancer, then aflatoxin is the **primary exposure** of interest in this case.
+-   If the hypothesis is that **aflatoxin**[^1] causes liver cancer, then aflatoxin is the **primary exposure** of interest in this case.
 
 -   On the other hand, if the hypothesis is that an **individuals ability** to metabolize aflatoxin determines the risk of liver cancer, then the metabolic enzyme phenotype/genotype is the **primary exposure** of interest.
 
-[^1]: Aflatoxins are a family of toxins produced by certain fungi that are found on agricultural crops such as maize (corn), peanuts, cottonseed, and tree nuts
+[^1]: **Aflatoxins are a family of toxins produced by certain fungi that are found on agricultural crops such as maize (corn), peanuts, cottonseed, and tree nuts**
 
 There may also be more than one exposure, for example; if a study has been set up to examine the hypothesis that alcohol is a cause of liver cancer **independent** of smoking, the one clearly has to measure smoking exposure as well as alcohol consumption. In this case, smoking is a [**potential confounder**]{.underline} as it "may get in the way" when studying the relationship of alcohol consumption and lung cancer.
 
@@ -1137,7 +1137,7 @@ Thus, one would conduct an Epidemiological Study in order:
 
     -   Who gets the disease (which groups of people)
 
-    -    Where does it occur (in which area is it more common or more severe)
+    -   Where does it occur (in which area is it more common or more severe)
 
     -   When does it occur (is it seasonal, has it changed over time)
 
@@ -1147,7 +1147,7 @@ Thus, one would conduct an Epidemiological Study in order:
 
     -   Does an exposure (vaccination, diet) prevent a disease
 
-    -    Does an exposure improve/cure (insulin, antibiotic) a disease
+    -   Does an exposure improve/cure (insulin, antibiotic) a disease
 
 The various study designs were then each developed to **accomplish one or more of the above objectives**. However there are **two broad categories** of epidemiological studies. Epidemiological studies can be either:
 
@@ -1431,7 +1431,7 @@ They can be used to study relatively **rare exposures**
 
 <!-- -->
 
-(1) Selection of cohort(s) Are cohort(s) representative of all potential cohort members? ( 2) Choice of the comparison group SOURCES OF BIAS ) p g p Do the ‘exposed’ differ from the ‘unexposed’ with respect to other factors? Healthy worker effect
+(1) Selection of cohort(s) Are cohort(s) representative of all potential cohort members? ( 2) Choice of the comparison group p g p Do the ‘exposed’ differ from the ‘unexposed’ with respect to other factors? Healthy worker effect
 (2) Ascertainment of disease status Completeness — LOSSES TO FOLLOW-UP Ascertainment without knowledge of exposure?
 
 Analysis
@@ -1444,7 +1444,7 @@ Comparison of cohort groups
 
 RR, RR, OR
 
-##### A pictorial illustration of the study designs considered 
+##### A pictorial illustration of the study designs considered
 
 | Cross-sectional | Cohort | Case-Control | Experimental |
 |----|----|----|----|
