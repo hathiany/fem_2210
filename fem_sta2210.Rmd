@@ -251,7 +251,7 @@ Epidemiologic triangle is a model for explaining the organism causing the diseas
 
 The following figure illustrates the relationship among the three key factors in the occurrence of a disease (outcome).
 
-![](images/clipboard-3482561306.png)
+![](images/clipboard-2772098803.png){width="336"}
 
 **Agent**
 
@@ -367,13 +367,13 @@ Incidence is the number of new cases of a disease that occur in a specific popul
 
 ### Incidence Rate
 
-This is computed as ![](images/clipboard-2417253094.png)
+This is computed as ![](images/clipboard-193090629.png)
 
 **Example**: In a city of 100,000 people, 500 new cases of tuberculosis (TB) are diagnosed [**over a year**]{.underline}. The incidence rate of TB would be:
 
 Incident Rate =
 
-![](images/clipboard-2544029570.png)
+![](images/clipboard-2037611254.png)
 
 **Use**: Incidence is used to measure diseases that develop over time, such as infectious diseases (e.g., flu, tuberculosis) or chronic conditions like type 2 diabetes
 
@@ -381,7 +381,7 @@ Incident Rate =
 
 **Cumulative incidence** is a measure of the proportion of individuals in a population who develop a specific disease or condition over a defined period of time. It provides an estimate of the risk of developing the disease during the time period, focusing on new cases.
 
-![](images/clipboard-3985758358.png){width="519"}
+![](images/clipboard-347296557.png){width="582"}
 
 Where:
 
@@ -411,7 +411,7 @@ Cumulative incidence is useful for estimating the **risk** of disease in a close
 
 Unlike [cumulative incidence]{.underline}, which is based on a fixed population over a period of time, incidence density accounts for varying periods of observation for each individual, making it useful when follow-up time differs across individuals in the population. This can be obtained as follows,
 
-![](images/clipboard-557581702.png){width="403"}
+![](images/clipboard-3838673996.png){width="461"}
 
 Where:
 
@@ -457,7 +457,7 @@ It is commonly used in clinical trials and cohort studies with long follow-up pe
 
 -   Attack rate is a type of incidence rate, usually used during outbreaks, which measures the proportion of people exposed to a disease who become ill.
 
-![](images/clipboard-1708740735.png){width="502"}
+    ![](images/clipboard-861535109.png){width="466"}
 
 -   **Example**: In a group of 100 people who attended a party, 40 people developed food poisoning after eating contaminated food. The attack rate would be:
 
@@ -479,7 +479,7 @@ We previously mentioned that a variety of attack rates can be calculated. That i
 
 The **Secondary Attack Rate (SAR)** is an epidemiological measure used to estimate the spread of a **contagious disease** within a defined group, such as a household, school, or other close-contact settings. It quantifies the proportion of susceptible individuals who become infected after exposure to a **primary case** (the first individual who contracted the disease).
 
-![](images/clipboard-2085616881.png){width="493"}
+![](images/clipboard-717855420.png){width="525"}
 
 Where:
 
@@ -539,7 +539,7 @@ There are two main types of prevalence: **point prevalence** and **period preval
 
 Point prevalence measures the proportion of a population that has a particular disease or health condition at a single point in time (like a snapshot).
 
-![](images/clipboard-3624312709.png){width="449"}
+![](images/clipboard-27023053.png){width="496"}
 
 **Example**: If, on January 1st, 2024, there are 50 cases of asthma in a town of 5,000 people, the point prevalence of asthma is:
 
@@ -551,7 +551,7 @@ Point prevalence measures the proportion of a population that has a particular d
 
 Period prevalence measures the proportion of a population that has a particular disease or condition at any time during a specified period (such as a week, month, or year).
 
-![](images/clipboard-1429937231.png){width="587"}
+![](images/clipboard-3992646071.png){width="549"}
 
 **Example**: If over the course of 2024, 200 people in a population of 5,000 experienced asthma at any point, the period prevalence of asthma would be:
 
@@ -583,7 +583,7 @@ Prevalence = incidence \* Duration
 
 This can be visualized as follows
 
-![](images/clipboard-630732251.png){width="426"}
+![](images/clipboard-3174787160.png){width="406"}
 
 ### Computing incidence and prevalence
 
@@ -591,15 +591,15 @@ This can be visualized as follows
 
 The following **figure** represents 10 new cases of illness over about 15 months (October 1, 2004{September 30, 2005) in a population of 20 persons. Each horizontal line represents one person. The down arrow indicates the date of onset of illness. The solid line represents the duration of illness. The up arrow and the cross represent the date of recovery and date of death, respectively
 
-![](images/clipboard-520895101.png){width="433"}
+![](images/clipboard-2987623535.png){width="414"}
 
-![](images/clipboard-2802545590.png)
+![](images/clipboard-741332309.png){width="644"}
 
 ## Case Fatality Rate (CFR)
 
 CFR measures the proportion of individuals diagnosed with a particular disease who die from that disease within a specified period
 
-![](images/clipboard-3449262627.png){width="405"}
+![](images/clipboard-2475368888.png)
 
 **Example**: During an Ebola outbreak, 100 people were diagnosed, and 60 of them died. The CFR for Ebola would be:
 
@@ -651,7 +651,7 @@ Measures of association **quantify the strength** or degree of a relationship be
 
 This is used to compare the prevalence of a condition or disease between two groups at a single point in time. It is often applied in **cross-sectional studies**.
 
-![](images/clipboard-1276279079.png)
+![](images/clipboard-1177408050.png){width="323"}
 
 **Example**
 
@@ -667,9 +667,9 @@ The **Risk Ratio (RR)**, also known as **Relative Risk**, is a measure used to c
 
 This is computed as follows
 
-![](images/clipboard-1203814533.png)
+![](images/clipboard-63407993.png)
 
-![](images/clipboard-478065909.png){width="579"}
+![](images/clipboard-2039782949.png){width="542"}
 
 **Example: Smoking and Lung Cancer**
 
@@ -685,9 +685,9 @@ The results are as follows:
 
 First, display the information using a contingency table as follows
 
-![](images/clipboard-807343764.png)
+![](images/clipboard-1576010509.png)
 
-![](images/clipboard-1806955238.png)
+![](images/clipboard-698890657.png)
 
 **Interpretation of RR = 4.5**
 
@@ -715,9 +715,9 @@ The **Rate Ratio**, also known as the **Incidence Rate Ratio (IRR)**, is a measu
 
 By definition rate ratio compares the incidence rate (***the number of new cases per unit of person-time***) in the **exposed** group to the incidence rate in the **unexposed** group. It quantifies how many times **higher** or **lower** the rate of disease is in the exposed group compared to the unexposed group.
 
-![](images/clipboard-2703015010.png)
+![](images/clipboard-3744637562.png){width="484"}
 
-![](images/clipboard-357945234.png){width="582"}
+![](images/clipboard-2992202871.png){width="582"}
 
 **Interpretation**
 
@@ -737,7 +737,7 @@ A study investigates the incidence of lung cancer in two groups: smokers and non
 
 -   In non-smokers (unexposed group), there are 30 new cases of lung cancer over 10,000 person-years.
 
-![](images/clipboard-939101630.png){width="527"}
+![](images/clipboard-3785476852.png){width="605"}
 
 **Interpretation of RR = 10**
 
@@ -761,7 +761,7 @@ In a workplace exposure study, 30 new cases of a respiratory disease occur among
 
 Often used in case-control studies, comparing the odds of exposure in cases (with disease) to the odds in controls (without disease)
 
-![](images/clipboard-1677325767.png){width="314"}
+![](images/clipboard-3945782773.png){width="323"}
 
 Consider the following table
 
@@ -917,7 +917,7 @@ The AF is particularly useful for determining the **public health impact** of el
 
 Computing Attributable Fraction in the Exposed (AFexposed​)
 
-![](images/clipboard-235058574.png){width="485"}
+![](images/clipboard-1188706983.png){width="563"}
 
 Where:
 
@@ -943,7 +943,7 @@ Suppose a study finds that 30% of smokers develop lung cancer over a period, whi
 
 -   Risk Ratio (RR) =0.3/0.05 = 6
 
-![](images/clipboard-3270753498.png){width="495"}
+![](images/clipboard-3736825789.png){width="473"}
 
 **Interpretation**
 
@@ -955,13 +955,13 @@ Other measures may include
 
 The proportion of the disease in the entire population that can be attributed to the exposure.
 
-![](images/clipboard-2262810660.png)
+![](images/clipboard-2893116551.png){width="398"}
 
 **Population Attributable Fraction (PAF)**
 
 PAF is a related measure that estimates the proportion of all cases in the total population (both exposed and unexposed) that can be attributed to the exposure. It is useful for assessing the **public health impact** of an exposure on the entire population, not just those exposed. It is obtained as follows
 
-![](images/clipboard-2811807935.png)
+![](images/clipboard-887121170.png){width="322"}
 
 Where:
 
@@ -987,7 +987,7 @@ VE is important for evaluating **how well** a vaccine works and is often used in
 
 The formula for calculating vaccine efficacy is based on the **Risk Ratio (RR)**/ **Rate Ratio** between vaccinated and unvaccinated groups
 
-![](images/clipboard-1380786040.png){width="389"}
+![](images/clipboard-236145180.png){width="618"}
 
 Alternatively, **VE = (1- RR)\*100**
 
@@ -1017,7 +1017,7 @@ Where:
 
     -   **Risk in vaccinated group**: 2% (0.02) of individuals get the virus.
 
-![](images/clipboard-946437906.png){width="535"}
+![](images/clipboard-2668817429.png){width="571"}
 
 **Interpretation**
 
@@ -1157,7 +1157,7 @@ The various study designs were then each developed to **accomplish one or more o
 
 This can be represented in a diagrammatic format as follows
 
-![](images/study_designs.jpeg){width="470"}
+![](images/study_designs.jpeg){width="433"}
 
 ### Observational studies
 
