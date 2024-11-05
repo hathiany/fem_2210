@@ -1411,13 +1411,15 @@ The starting point of a cohort study is the definition of a group of people by t
 
 There are **two** main types of cohort studies. These are
 
-###### **Prospective cohort study** 
+###### **Prospective cohort study**
 
 -   It is a type of cohort study where researchers start with a group of individuals who are free of the outcome of interest and then follow them forward in time to see how certain exposures affect the risk of developing that outcome.
 
-    ![](images/clipboard-2709491857.png){width="363"}
+-   The following two diagrams illustrate the prospective cohort study design
 
-    ### Key Characteristics of Prospective Cohort Studies
+    ![a) Illustration of a prospective cohort study design](images/clipboard-2709491857.png){width="363"}![b) Illustration of a prospective cohort study design](images/clipboard-3853360960.png){width="294"}
+
+    ### Key characteristics of prospective cohort studies
 
     -   **Baseline data collection**
 
@@ -1435,8 +1437,7 @@ There are **two** main types of cohort studies. These are
 
         -   The cohort is followed over a specified period, **often years or even decades**, to monitor the occurrence of new cases of the outcome. This period can vary based on the study's objective and the anticipated time it might take for the outcome to develop. This is based on prior knowledge of the natural history of the disease
 
-        -   During follow-up, researchers collect updated **exposure** information and monitor for the outcome of interest, such as the incidence of a disease or health event. If the disease (e.g. tuberculosis) over time develops more frequently amongst the exposed group (e.g. living in an over-crowded house) than amongst the unexposed group (don’t
-            live in an over-crowded house) then the exposure might be causing the disease. The proportion of people who develop the disease over time is referred to as the *incidence* of disease
+        -   During follow-up, researchers collect updated **exposure** information and monitor for the outcome of interest, such as the incidence of a disease or health event. If the disease (e.g. tuberculosis) over time develops more frequently amongst the exposed group (e.g. living in an over-crowded house) than amongst the unexposed group (don’t live in an over-crowded house) then the exposure might be causing the disease. The proportion of people who develop the disease over time is referred to as the *incidence* of disease
 
     -   **Outcome assessment**
 
@@ -1449,6 +1450,72 @@ There are **two** main types of cohort studies. These are
         -   Because exposure is measured before the outcome occurs, prospective cohort studies provide a clear timeline that supports causal inferences.
 
 -   This study design is particularly valuable in epidemiology for establishing a **temporal** sequence between an **exposure** and an **outcome**, which is essential for assessing **causation**.
+
+### Advantages of prospective cohort studies
+
+-   **Establishing temporal relationship**: Since exposure data is collected before the outcome, it’s easier to infer a causal link between the exposure and the outcome.
+
+-   **Minimizing recall bias**: Exposure information is collected in real-time (at baseline), so it does not rely on participants' memory of past exposures, reducing recall bias.
+
+-   **Multiple outcomes**: Prospective cohort studies can assess the impact of a single exposure on multiple outcomes. For example, a study on smoking could examine not only lung cancer but also heart disease and stroke.
+
+-   **Measurement of incidence**: This design enables the calculation of the incidence (new cases) of the outcome in both exposed and unexposed groups, allowing for the estimation of relative risk (RR).
+
+-   Ideal for studying rare exposures
+
+### Disadvantages of prospective cohort studies
+
+-   **Time and cost-intensive**: Because of the need for extended follow-up and regular data collection, prospective cohort studies are resource-intensive and often costly.
+
+-   **Loss to follow-up**: Over time, some participants may drop out due to relocation, loss of interest, or death, which can introduce bias if the dropout is related to exposure or outcome.
+
+-   **Not ideal for rare outcomes**: If the outcome of interest is rare, the study may require a very large sample size to capture enough cases, making it logistically challenging and costly.
+
+-   **Potential for confounding**: Even with careful study design, prospective cohort studies may be affected by confounding variables, which are other factors that might affect the outcome.
+
+**Example**
+
+**Study Objective**: To examine the relationship between physical activity and cardiovascular disease (CVD) in adults.
+
+**Study Design**:
+
+1.  **Baseline recruitment**: Researchers enroll 5,000 adults aged 40-60 years who are free of CVD. Participants complete a baseline survey on their physical activity levels and other factors such as diet, smoking status, and medical history.
+
+2.  **Follow-up**: Researchers follow participants for 10 years, during which time they periodically assess physical activity levels and monitor participants for any new diagnoses of CVD, such as heart attack or stroke.
+
+3.  **Outcome measurement**: Incidence of CVD is tracked through regular medical check-ups and review of medical records.
+
+4.  **Data analysis**: The incidence of CVD in high-activity participants is compared to that in low-activity participants to determine if higher physical activity levels are associated with a reduced risk of CVD.
+
+**Findings**:
+
+-   Suppose the study finds that participants with higher physical activity levels have a significantly lower incidence of CVD compared to those with lower activity levels.
+
+**Interpretation**:
+
+-   This finding suggests a possible protective effect of physical activity against CVD. Because the study is prospective, with exposure measured before the outcome, there is stronger evidence to support a causal relationship.
+
+### Key Measures in Prospective Cohort Studies
+
+1.  **Incidence rate**: The rate at which new cases of the outcome occur in a population over time.
+
+    ${\text{Incidence Rate(IR)}} = \frac{\text{Number of new cases}}{\text{Person-time at risk}}$
+
+2.  **Relative Risk (RR)**: A measure that compares the risk of the outcome in the exposed group to the risk in the unexposed group.
+
+    $\text{Relative Risk (RR)} = \frac{\text{Incidence in exposed group}}{\text{Incidence in unexposed group}}$
+
+3.  **Attributable Risk (AR)**: The difference in incidence between exposed and unexposed groups, representing the incidence of disease that could potentially be prevented if the exposure were eliminated.
+
+    $\text{Attributable Risk (AR)} = \text{Incidence in exposed} - \text{Incidence in unexposed}$
+
+**In summary**
+
+-   **Prospective cohort** studies are a gold standard for studying the effects of risk factors on the development of disease over time.
+
+-   They provide essential data on incidence, enable the study of multiple outcomes from a single exposure, and support a temporal sequence between exposure and outcome. However, they require significant resources and are susceptible to biases from loss to follow-up and confounding.
+
+-   Despite these challenges, prospective cohort studies are among the most powerful observational designs for exploring causality in epidemiology.
 
 The **key features** of cohort studies include;
 
