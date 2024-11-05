@@ -917,7 +917,7 @@ The AF is particularly useful for determining the **public health impact** of el
 
 Computing Attributable Fraction in the Exposed (AFexposed​)
 
-![](images/clipboard-1188706983.png){width="563"}
+![](images/clipboard-1188706983.png){width="515"}
 
 Where:
 
@@ -943,7 +943,7 @@ Suppose a study finds that 30% of smokers develop lung cancer over a period, whi
 
 -   Risk Ratio (RR) =0.3/0.05 = 6
 
-![](images/clipboard-3736825789.png){width="473"}
+![](images/clipboard-3736825789.png){width="508"}
 
 **Interpretation**
 
@@ -987,7 +987,7 @@ VE is important for evaluating **how well** a vaccine works and is often used in
 
 The formula for calculating vaccine efficacy is based on the **Risk Ratio (RR)**/ **Rate Ratio** between vaccinated and unvaccinated groups
 
-![](images/clipboard-236145180.png){width="618"}
+![](images/clipboard-236145180.png){width="667"}
 
 Alternatively, **VE = (1- RR)\*100**
 
@@ -1017,7 +1017,7 @@ Where:
 
     -   **Risk in vaccinated group**: 2% (0.02) of individuals get the virus.
 
-![](images/clipboard-2668817429.png){width="571"}
+![](images/clipboard-2668817429.png){width="526"}
 
 **Interpretation**
 
@@ -1187,7 +1187,7 @@ This is done for several populations and the data are examined for evidence of a
 
 This study design is often useful for generating hypotheses, especially in situations where individual-level data may be challenging to obtain.
 
-![](images/clipboard-598918067.png){width="553"}
+![](images/clipboard-598918067.png){width="514"}
 
 **Key Features of Ecological Studies**
 
@@ -1245,11 +1245,11 @@ This study design is often useful for generating hypotheses, especially in situa
 
 Ecological studies provide valuable insights into population-level patterns and associations and are often used in public health research and policy-making. However, they should be interpreted cautiously, especially when considering their limitations, such as the potential for **ecological fallacy** and confounding.
 
-**Task  – Thinking critically about ecological studies**
+**Task – Thinking critically about ecological studies**
 
 According to Durkheim, in 19th century Europe, suicide rates were higher in countries that were more heavily Protestant. In his seminal monograph "The Suicide", the French scholar Emile Durkheim used this observed association to conclude that suicide was promoted by the social conditions of Protestantism[^2]. This conclusion was later criticised widely. **Can you think of any reason why this conclusion could be misleading**?
 
-[^2]: Durkheim, E. (1897).  Le suicide. Paris: F. Alcan. English translation by J A Spalding (1951). Toronto, Canada: Free Press/Collier-MacMillan.
+[^2]: Durkheim, E. (1897). Le suicide. Paris: F. Alcan. English translation by J A Spalding (1951). Toronto, Canada: Free Press/Collier-MacMillan.
 
 ##### Cross-sectional studies
 
@@ -1345,11 +1345,11 @@ Here is a good picture illustrating the example above
 
     **a. Calculate the prevalence of respiratory disease among smokers.**
 
-    ![](images/clipboard-4066762556.png){width="530"}
+    ![](images/clipboard-4066762556.png){width="593" height="81"}
 
     **b. Calculate the prevalence of respiratory disease among non-smokers.**
 
-    ![](images/clipboard-4102866092.png){width="641"}
+    ![](images/clipboard-4102866092.png){width="648"}
 
     **c. Calculate the prevalence ratio** to compare the prevalence of respiratory disease between smokers and non-smokers.
 
@@ -1429,10 +1429,9 @@ They can be used to study relatively **rare exposures**
 
     sources of bias
 
-<!-- -->
+(8) Selection of cohort(s) Are cohort(s) representative of all potential cohort members? ( 2) Choice of the comparison group p g p Do the ‘exposed’ differ from the ‘unexposed’ with respect to other factors? Healthy worker effect
 
-(1) Selection of cohort(s) Are cohort(s) representative of all potential cohort members? ( 2) Choice of the comparison group p g p Do the ‘exposed’ differ from the ‘unexposed’ with respect to other factors? Healthy worker effect
-(2) Ascertainment of disease status Completeness — LOSSES TO FOLLOW-UP Ascertainment without knowledge of exposure?
+(9) Ascertainment of disease status Completeness — LOSSES TO FOLLOW-UP Ascertainment without knowledge of exposure?
 
 Analysis
 
@@ -1456,17 +1455,17 @@ RR, RR, OR
 
 While preparing these notes, I have benefited from various authors and would like to share some of the details as follows
 
--   Epidemiology: An introduction - Open University course K311 Promoting public health: <http://www3.open.ac.uk/study/undergraduate/course/k311.htm>
+-   Epidemiology: An introduction - *Open University course K311 Promoting public health:* <http://www3.open.ac.uk/study/undergraduate/course/k311.htm>
 
 -   History of epidemiology [https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology\_(Boundless)](https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology){.uri}
 
     [/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology](https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology){.uri}
 
--   LECTURE NOTES For Environmental and Occupational Health Students (Epidemiology) - Ethiopia Public Health Training Initiative, University of Gondar
+-   **Lecture Notes:** For Environmental and Occupational Health Students (Epidemiology) - *Ethiopia Public Health Training Initiative, University of Gondar*
 
--   Understanding the Fundamentals of Epidemiology an evolving text, Victor J. Schoenbach, Ph.D. & Wayne D. Rosamond, Ph.D.
+-   Understanding the Fundamentals of Epidemiology an evolving text, *Victor J. Schoenbach, Ph.D. & Wayne D. Rosamond, Ph.D*.
 
--   Principles of Epidemiology in Public Health Practice -An Introduction to Applied Epidemiology and Biostatistics - Self Study (CDC) : <https://www.cdc.gov/csels/dsepd/ss1978/index.html>
+-   Principles of Epidemiology in Public Health Practice -An Introduction to Applied Epidemiology and Biostatistics - *Self Study (CDC)* : <https://www.cdc.gov/csels/dsepd/ss1978/index.html>
 
 -   Understanding the Epidemiologic Triangle through Infectious Disease <https://www.cdc.gov/healthyschools/bam/teachers/documents/epi_1_triangle.pdf>
 
