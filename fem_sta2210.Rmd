@@ -1419,7 +1419,13 @@ There are **two** main types of cohort studies. These are
 
     ![a) Illustration of a prospective cohort study design](images/clipboard-2709491857.png){width="363"}![b) Illustration of a prospective cohort study design](images/clipboard-3853360960.png){width="294"}
 
-    ### Key characteristics of prospective cohort studies
+    ### Steps in conducting a prospective cohort study
+
+    -   **Define the Study Population**
+
+        -   Identify a group of individuals who share common characteristics but who vary in exposure status.
+
+        -   For example, this could include a group of smokers and non-smokers who are initially free of lung cancer.
 
     -   **Baseline data collection**
 
@@ -1473,41 +1479,65 @@ There are **two** main types of cohort studies. These are
 
 -   **Potential for confounding**: Even with careful study design, prospective cohort studies may be affected by confounding variables, which are other factors that might affect the outcome.
 
-**Example**
+**Example: Smoking and Lung Cancer**
 
-**Study Objective**: To examine the relationship between physical activity and cardiovascular disease (CVD) in adults.
+**Objective**: Investigate the relationship between smoking and lung cancer over time.
 
-**Study Design**:
+**Study Setup**
 
-1.  **Baseline recruitment**: Researchers enroll 5,000 adults aged 40-60 years who are free of CVD. Participants complete a baseline survey on their physical activity levels and other factors such as diet, smoking status, and medical history.
+-   **Population**: 1,000 individuals without lung cancer at baseline.
 
-2.  **Follow-up**: Researchers follow participants for 10 years, during which time they periodically assess physical activity levels and monitor participants for any new diagnoses of CVD, such as heart attack or stroke.
+-   **Exposure Measurement**: Classify participants at baseline as smokers (exposed group) or non-smokers (unexposed group).
 
-3.  **Outcome measurement**: Incidence of CVD is tracked through regular medical check-ups and review of medical records.
+-   **Follow-Up**: Track all participants over 10 years, noting who develops lung cancer during the follow-up period.
 
-4.  **Data analysis**: The incidence of CVD in high-activity participants is compared to that in low-activity participants to determine if higher physical activity levels are associated with a reduced risk of CVD.
+**Hypothetical Data**
 
-**Findings**:
+-   **Smokers**: 400 participants, of whom 80 develop lung cancer over 10 years.
 
--   Suppose the study finds that participants with higher physical activity levels have a significantly lower incidence of CVD compared to those with lower activity levels.
+-   **Non-Smokers**: 600 participants, of whom 15 develop lung cancer over 10 years.
 
-**Interpretation**:
+    **Solutions**
 
--   This finding suggests a possible protective effect of physical activity against CVD. Because the study is prospective, with exposure measured before the outcome, there is stronger evidence to support a causal relationship.
+    ![](images/clipboard-2220487469.png)
+
+    ### Explanation of the contigency table
+
+    -   **Rows**: Represent the two exposure groups—**Smokers** and **Non-Smokers**.
+
+    -   **Columns**: Show the outcome status for lung cancer—**Yes** (lung cancer developed) and **No** (no lung cancer developed).
+
+    -   **Total**: Summarizes the counts for each row and column.
+
+**Calculations**
+
+![](images/clipboard-2333621490.png){width="565"}
+
+**Interpretation**
+
+-   An **RR of 8.0** indicates that smokers have **eight times the risk of developing lung cancer** compared to non-smokers in this study population over the 10-year follow-up period.
+
+-   This strong association, combined with the temporal sequence of exposure preceding the outcome, suggests that smoking may be a significant risk factor for lung cancer.
+
+**Conclusion**
+
+-   This prospective cohort study provides evidence that smoking is associated with an increased risk of lung cancer.
+
+-   The temporal clarity strengthens the argument for a causal relationship, although confounding factors should be considered and adjusted for in a full analysis.
 
 ### Key Measures in Prospective Cohort Studies
 
 1.  **Incidence rate**: The rate at which new cases of the outcome occur in a population over time.
 
-    ${\text{Incidence Rate(IR)}} = \frac{\text{Number of new cases}}{\text{Person-time at risk}}$
+    ![](images/clipboard-260987568.png){width="252" height="36"}
 
 2.  **Relative Risk (RR)**: A measure that compares the risk of the outcome in the exposed group to the risk in the unexposed group.
 
-    $\text{Relative Risk (RR)} = \frac{\text{Incidence in exposed group}}{\text{Incidence in unexposed group}}$
+    ![](images/clipboard-1215194790.png){width="362"}
 
 3.  **Attributable Risk (AR)**: The difference in incidence between exposed and unexposed groups, representing the incidence of disease that could potentially be prevented if the exposure were eliminated.
 
-    $\text{Attributable Risk (AR)} = \text{Incidence in exposed} - \text{Incidence in unexposed}$
+    **Attributable Risk(AR) = Incidence in Exposed - Incidence in unexposed**
 
 **In summary**
 
