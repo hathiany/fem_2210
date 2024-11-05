@@ -1187,6 +1187,8 @@ This is done for several populations and the data are examined for evidence of a
 
 This study design is often useful for generating hypotheses, especially in situations where individual-level data may be challenging to obtain.
 
+![](images/clipboard-598918067.png){width="553"}
+
 **Key Features of Ecological Studies**
 
 1.  **Group-Level Data**: In ecological studies, data on exposures and outcomes are collected and analyzed for groups (such as countries, cities, schools, or communities) rather than individuals. For instance, you might look at the average dietary intake of sugar in different countries and correlate it with national rates of diabetes.
@@ -1201,11 +1203,17 @@ This study design is often useful for generating hypotheses, especially in situa
 
     -   **Large-Scale Associations**: Ecological studies are useful for studying exposures that are not feasible to measure at the individual level (e.g., air pollution levels across a city).
 
-4.  **Limitations**
+4.  **Strengths**
+
+    -   Despite their weaknesses, ecological studies are useful because they can be carried out easily, quickly and inexpensively using data that are generally already available. If interesting and strong associations are observed, the results of ecological studies can provide the opportunity for later, more carefully designed studies (though more expensive and time-consuming) to build on the initial observations.
+
+5.  **Limitations**
 
     -   **Confounding**: There may be unmeasured factors that influence the association at the group level.
 
     -   **Lack of Individual-Level Data**: Associations found at the group level may not hold true for individuals within those groups, which limits the ability to draw conclusions about cause and effect.
+
+    -   The variables in ecological studies do not represent characteristics of individuals, but are summary measures, at group level, of the characteristics of many individuals (for example the summary measures of the prevalence of CVD and the average salt consumption).
 
 **Example of an Ecological Study**
 
@@ -1237,15 +1245,25 @@ This study design is often useful for generating hypotheses, especially in situa
 
 Ecological studies provide valuable insights into population-level patterns and associations and are often used in public health research and policy-making. However, they should be interpreted cautiously, especially when considering their limitations, such as the potential for **ecological fallacy** and confounding.
 
+**Task  – Thinking critically about ecological studies**
+
+According to Durkheim, in 19th century Europe, suicide rates were higher in countries that were more heavily Protestant. In his seminal monograph "The Suicide", the French scholar Emile Durkheim used this observed association to conclude that suicide was promoted by the social conditions of Protestantism[^2]. This conclusion was later criticised widely. **Can you think of any reason why this conclusion could be misleading**?
+
+[^2]: Durkheim, E. (1897).  Le suicide. Paris: F. Alcan. English translation by J A Spalding (1951). Toronto, Canada: Free Press/Collier-MacMillan.
+
 ##### Cross-sectional studies
 
 A **cross-sectional study** is a type of observational study design in epidemiology where researchers collect data on exposure(s) and outcome(s) at a single point in time, or over a very short period, from a defined population.
 
-This type of study provides a **"snapshot"** of the health status or characteristics of a population, making it useful for assessing the **prevalence** of diseases or conditions. *See the following diagrams*
+This type of study provides a **"snapshot"** of the health status or characteristics of a population, making it useful for assessing the **prevalence** of diseases or conditions.
 
-![](images/clipboard-4122457518.png){width="338"}
+There are two types of cross-sectional studies
 
-The prevalence of the outcome can be measured without reference to the exposure, for instance;
+![](images/clipboard-3460479101.png)
+
+Descriptive cross-sectional studies answers questions like: **What is the prevalence of blindness in the Kenya?**
+
+In desriptive studies, the prevalence of the outcome can be measured without reference to the exposure, for instance;
 
 "the percentage % of JKUAT students suffering from headache on a particular day"
 
@@ -1253,9 +1271,15 @@ The prevalence of the outcome can be measured without reference to the exposure,
 
 "the % persons under 18 years in Nairobi who have used illegal drugs in the past"
 
-These studies are classified as descriptive because the outcome is **not** reported in relation to the exposure or the exposure is **not** reported in relation to the outcome.
+These studies are classified as descriptive because the outcome is **not** reported in relation to the exposure or the exposure is **not** reported in relation to the outcome. This can be illustrated by the following diagram;
+
+![](images/clipboard-3483270743.png){width="381"}
 
 However, if the prevalence of disease is measured in those with and those without he expensive of interest then the study is classified as analytical.
+
+![](images/clipboard-3543983429.png){width="415"}
+
+Analytical studies answers questions such as: **What is association between gender and prevalent blindness in the Kenya?**
 
 Cross-sectional studies are relatively simple to conduct and takes only a short time and are relatively cheap. For this reason, they are frequently used for planning purposes. However, they have the major drawback that the can be difficult to interpret as its not possible to know whether the outcome followed the exposure in time or the exposure resulted fro the outcome.
 
@@ -1313,25 +1337,25 @@ Here is a good picture illustrating the example above
 
 ![](images/clipboard-936893105.png){width="357"}
 
-3 A cross-sectional study was conducted among 1,000 factory workers to examine the prevalence of respiratory disease in relation to smoking status. Out of the 1,000 workers:
+3.  A cross-sectional study was conducted among 1,000 factory workers to examine the prevalence of respiratory disease in relation to smoking status. Out of the 1,000 workers:
 
 -   400 are smokers, and among them, 120 have respiratory disease.
 
 -   600 are non-smokers, and among them, 90 have respiratory disease.
 
-1.  **Calculate the prevalence of respiratory disease among smokers.**
+    **a. Calculate the prevalence of respiratory disease among smokers.**
 
     ![](images/clipboard-4066762556.png){width="530"}
 
-2.  **Calculate the prevalence of respiratory disease among non-smokers.**
+    **b. Calculate the prevalence of respiratory disease among non-smokers.**
 
     ![](images/clipboard-4102866092.png){width="641"}
 
-3.  **Calculate the prevalence ratio** to compare the prevalence of respiratory disease between smokers and non-smokers.
+    **c. Calculate the prevalence ratio** to compare the prevalence of respiratory disease between smokers and non-smokers.
 
     ![](images/clipboard-1753717508.png){width="555"}
 
-4.  **Interpret the prevalence ratio** in the context of this study.
+    **d. Interpret the prevalence ratio** in the context of this study.
 
     The prevalence ratio of 2.0 suggests that the prevalence of respiratory disease among smokers is **twice as high** as it is among non-smokers in this population of factory workers. This indicates a possible association between smoking and respiratory disease, but [**causality cannot be determined from a cross-sectional study**]{.underline}.
 
@@ -1379,11 +1403,52 @@ Some of the types of cohorts include
 
 -   marriage cohort
 
+Design steps
+
+identify one or more groups of individuals who share some common attribute (the ‘cohort’) • classify cohort members according to the key exposure(s) of interest DESIGN STEPS • follow-up cohort members to determine disease occurrence • relate information on disease occurrence to exposure
+
+strengths
+
+They can be used to study relatively **rare exposures**
+
+(1) They can be used to study a **wide range of disease outcomes**
+
+(2) Information on **exposure** relates to time period **before disease onset**
+
+(3) Detailed information on **confounding factors** can be collected
+
+(4) Detailed data on exposure permits opportunity to study **‘dose-response’ relationships**
+
+    Weaknesses
+
+(5) Study size
+
+(6) Cost of data collection
+
+(7) Time required to conduct the study — and losses to follow-up Because of the strengths and weaknesses, cohort studies are most often used when the disease of interest is common and/or the effects of the exposure are nonspecific or not well-defined
+
+    sources of bias
+
+<!-- -->
+
+(1) Selection of cohort(s) Are cohort(s) representative of all potential cohort members? ( 2) Choice of the comparison group SOURCES OF BIAS ) p g p Do the ‘exposed’ differ from the ‘unexposed’ with respect to other factors? Healthy worker effect
+(2) Ascertainment of disease status Completeness — LOSSES TO FOLLOW-UP Ascertainment without knowledge of exposure?
+
+Analysis
+
+a\. Comparison of disease rates in cohort with rates in general population
+
+b\. Compare disease risk (or rate) in exposed cohort members with unexposed cohort members
+
+Comparison of cohort groups
+
+RR, RR, OR
+
 ##### A pictorial illustration of the study designs considered 
 
 | Cross-sectional | Cohort | Case-Control | Experimental |
 |----|----|----|----|
-| ![](images/clipboard-1523767744.png){width="431"} | ![](images/clipboard-1523767744.png) | ![](images/clipboard-2000348032.png){width="441"} | ![](images/clipboard-3915748024.png){width="431"} |
+| ![](images/clipboard-693206586.png) | ![](images/clipboard-994150909.png){width="203"} | ![](images/clipboard-1627651497.png) | ![](images/clipboard-2475022218.png) |
 
 # Interpretation of Epidemiological Studies
 
@@ -1393,7 +1458,9 @@ While preparing these notes, I have benefited from various authors and would lik
 
 -   Epidemiology: An introduction - Open University course K311 Promoting public health: <http://www3.open.ac.uk/study/undergraduate/course/k311.htm>
 
--   History of epidemiology [https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology\_(Boundless)/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology](https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology){.uri}
+-   History of epidemiology [https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology\_(Boundless)](https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology){.uri}
+
+    [/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology](https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/10%3A_Epidemiology/10.01%3A_Principles_of_Epidemiology/10.1A%3A_History_of_Epidemiology){.uri}
 
 -   LECTURE NOTES For Environmental and Occupational Health Students (Epidemiology) - Ethiopia Public Health Training Initiative, University of Gondar
 
