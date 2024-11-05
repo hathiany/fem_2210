@@ -1409,11 +1409,62 @@ Cohort studies allow researchers to study the incidence and risk of disease, pro
 
 The starting point of a cohort study is the definition of a group of people by their exposure status. For example, one might take a group of smokers and a group of non-smokers. These are followed up for a period of time to see which ones develop a disease/condition such as **gangrene of the leg or requiring an amputation.**
 
-The key features of cohort studies include;
+There are **two** main types of cohort studies. These are
+
+###### **Prospective cohort study** 
+
+-   It is a type of cohort study where researchers start with a group of individuals who are free of the outcome of interest and then follow them forward in time to see how certain exposures affect the risk of developing that outcome.
+
+    ![](images/clipboard-2709491857.png){width="363"}
+
+    ### Key Characteristics of Prospective Cohort Studies
+
+    -   **Baseline data collection**
+
+        -   At the beginning of the study, participants are assessed for various characteristics, including their **exposure status**, demographic information, and potential confounding factors.
+
+        -   Exposure information may include lifestyle behaviors (e.g., smoking, diet), environmental factors (e.g., pollution, occupational exposure), or biological markers (e.g., cholesterol levels, blood pressure).
+
+    -   **Defined cohort**
+
+        -   The cohort consists of individuals who share a specific characteristic or set of characteristics, such as people living in a particular region, workers in a specific industry, or individuals with a similar health status.
+
+        -   Participants must be free of the outcome of interest (e.g., disease) at the beginning of the study to ensure that exposure precedes the outcome.
+
+    -   **Follow-up period**
+
+        -   The cohort is followed over a specified period, **often years or even decades**, to monitor the occurrence of new cases of the outcome. This period can vary based on the study's objective and the anticipated time it might take for the outcome to develop. This is based on prior knowledge of the natural history of the disease
+
+        -   During follow-up, researchers collect updated **exposure** information and monitor for the outcome of interest, such as the incidence of a disease or health event. If the disease (e.g. tuberculosis) over time develops more frequently amongst the exposed group (e.g. living in an over-crowded house) than amongst the unexposed group (don’t
+            live in an over-crowded house) then the exposure might be causing the disease. The proportion of people who develop the disease over time is referred to as the *incidence* of disease
+
+    -   **Outcome assessment**
+
+        -   Throughout or at the end of the follow-up period, researchers assess the incidence of the outcome (e.g., development of disease, death) among participants.
+
+        -   This can involve periodic health assessments, medical record reviews, or self-reported surveys, depending on the outcome and the study's design.
+
+    -   **Temporal Sequence**:
+
+        -   Because exposure is measured before the outcome occurs, prospective cohort studies provide a clear timeline that supports causal inferences.
+
+-   This study design is particularly valuable in epidemiology for establishing a **temporal** sequence between an **exposure** and an **outcome**, which is essential for assessing **causation**.
+
+The **key features** of cohort studies include;
 
 -   **Longitudinal Follow-Up**: Cohort studies are designed to observe participants over a specified period, which may be ***months, years, or even decades***. They measure the incidence (new cases) of a disease or outcome over time.
 
 -   **Exposed vs. Unexposed Groups**: A cohort study typically starts by identifying two groups within the cohort: those who have been exposed to a risk factor or intervention (e.g., smokers) and those who have not (e.g., non-smokers). The study then tracks outcomes in both groups to assess any association with the exposure.
+
+-   **Prospective vs. Retrospective Cohort Studies**
+
+    -   **Prospective Cohort Study**: Enrolls participants and follows them into the future. Data on exposure and other variables are collected at the start and monitored over time.
+
+    -   **Retrospective Cohort Study**: Uses past records to determine participants’ exposure status and follows them up to the present to assess outcomes. It’s faster and less expensive than prospective studies but relies on the availability and accuracy of historical data.
+
+<!-- -->
+
+-   **Temporal Relationship**: Since exposure is measured before the outcome occurs, cohort studies can establish a temporal sequence, which strengthens causal inferences.
 
 Design steps
 
