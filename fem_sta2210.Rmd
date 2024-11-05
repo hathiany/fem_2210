@@ -1175,7 +1175,7 @@ These studies examine disease/outcome occurrence by age, sex region, time period
 
 No exposure is determined in theses studies and they often make use of routinely collected data such as National Mortality or, say cancer incidence rates.
 
-##### Ecological studies
+#### Ecological studies
 
 An **ecological study** is a type of observational study design used in epidemiology to examine the relationships between exposures and outcomes at the **population or group level** rather than at the individual level.
 
@@ -1251,7 +1251,7 @@ According to Durkheim, in 19th century Europe, suicide rates were higher in coun
 
 [^2]: Durkheim, E. (1897). Le suicide. Paris: F. Alcan. English translation by J A Spalding (1951). Toronto, Canada: Free Press/Collier-MacMillan.
 
-##### Cross-sectional studies
+#### Cross-sectional studies
 
 A **cross-sectional study** is a type of observational study design in epidemiology where researchers collect data on exposure(s) and outcome(s) at a single point in time, or over a very short period, from a defined population.
 
@@ -1287,15 +1287,15 @@ Cross-sectional studies are relatively simple to conduct and takes only a short 
 
 **Key Features of Cross-Sectional Studies**
 
-1.  **Single Point in Time**: Data on both the exposure and outcome are collected simultaneously, making it impossible to determine causality. Instead, cross-sectional studies measure the prevalence of an outcome or exposure.
+-   **Single Point in Time**: Data on both the exposure and outcome are collected simultaneously, making it impossible to determine causality. Instead, cross-sectional studies measure the prevalence of an outcome or exposure.
 
-2.  **Prevalence Measurement**: Cross-sectional studies are often used to estimate the prevalence of diseases, behaviors, risk factors, or health conditions in a population. This can provide important public health information, such as the percentage of a population that smokes, has diabetes, or is obese.
+-   **Prevalence Measurement**: Cross-sectional studies are often used to estimate the prevalence of diseases, behaviors, risk factors, or health conditions in a population. This can provide important public health information, such as the percentage of a population that smokes, has diabetes, or is obese.
 
-3.  **Population-Based**: Cross-sectional studies can be conducted on entire populations, random samples, or specific subgroups. If the sample is representative, the results can be generalized to a broader population.
+-   **Population-Based**: Cross-sectional studies can be conducted on entire populations, random samples, or specific subgroups. If the sample is representative, the results can be generalized to a broader population.
 
-4.  **Efficiency**: These studies are generally quicker and less expensive than longitudinal studies, as they require only one set of data collection.
+-   **Efficiency**: These studies are generally quicker and less expensive than longitudinal studies, as they require only one set of data collection.
 
-5.  **Limitation - Temporal Ambiguity**: Since exposure and outcome are measured simultaneously, it’s unclear whether the exposure preceded the outcome or vice versa. This limits the ability to draw causal inferences.
+-   **Limitation - Temporal Ambiguity**: Since exposure and outcome are measured simultaneously, it’s unclear whether the exposure preceded the outcome or vice versa. This limits the ability to draw causal inferences.
 
 **When to Use Cross-Sectional Studies**
 
@@ -1307,9 +1307,9 @@ Cross-sectional studies are relatively simple to conduct and takes only a short 
 
 -   **Generating Hypotheses**: Can be used as a basis for further longitudinal studies that investigate causation.
 
-**Example of a Cross-Sectional Study**
+**Example: Cross-sectional study**
 
-1.  **Objective**: Assess the prevalence of hypertension and its association with obesity in a community.
+**Objective**: Assess the prevalence of hypertension and its association with obesity in a community.
 
 **Method**:
 
@@ -1327,7 +1327,7 @@ Cross-sectional studies are relatively simple to conduct and takes only a short 
 
 -   This cross-sectional study provides data on how common hypertension is in this community and suggests an association between hypertension and obesity. However, since it’s cross-sectional, it cannot prove that obesity causes hypertension.
 
-2.  **Schizophrenia** will often result in an inability to hold down a job or may impair the ability of the person to hold a responsible job.
+-   **Schizophrenia** will often result in an inability to hold down a job or may impair the ability of the person to hold a responsible job.
 
     In this situation cross-sectional studies might show that people with this disease have low economic status. This could be misinteprated as being in a lower social class increases the risk of **Schizophrenia** when in fact the occupational status was determined by the disease.
 
@@ -1389,7 +1389,7 @@ A researcher conducts a cross-sectional study to investigate the relationship be
 
 4.  If the study finds an association between higher physical activity and better mental health, can the researcher conclude that physical activity improves mental health? Why or why not?
 
-##### Cohort studies
+#### Cohort studies
 
 **What is a cohort?**
 
@@ -1411,7 +1411,7 @@ The starting point of a cohort study is the definition of a group of people by t
 
 There are **two** main types of cohort studies. These are
 
-###### **Prospective cohort study**
+##### **Prospective cohort study**
 
 -   It is a type of cohort study where researchers start with a group of individuals who are free of the outcome of interest and then follow them forward in time to see how certain exposures affect the risk of developing that outcome.
 
@@ -1419,9 +1419,9 @@ There are **two** main types of cohort studies. These are
 
     ![a) Illustration of a prospective cohort study design](images/clipboard-2709491857.png){width="363"}![b) Illustration of a prospective cohort study design](images/clipboard-3853360960.png){width="294"}
 
-    ### Steps in conducting a prospective cohort study
+    **Steps in conducting a prospective cohort study**
 
-    -   **Define the Study Population**
+    -   **Define the study population**
 
         -   Identify a group of individuals who share common characteristics but who vary in exposure status.
 
@@ -1451,13 +1451,13 @@ There are **two** main types of cohort studies. These are
 
         -   This can involve periodic health assessments, medical record reviews, or self-reported surveys, depending on the outcome and the study's design.
 
-    -   **Temporal Sequence**:
+    -   **Temporal sequence**
 
         -   Because exposure is measured before the outcome occurs, prospective cohort studies provide a clear timeline that supports causal inferences.
 
 -   This study design is particularly valuable in epidemiology for establishing a **temporal** sequence between an **exposure** and an **outcome**, which is essential for assessing **causation**.
 
-### Advantages of prospective cohort studies
+**Advantages of prospective cohort studies**
 
 -   **Establishing temporal relationship**: Since exposure data is collected before the outcome, it’s easier to infer a causal link between the exposure and the outcome.
 
@@ -1469,7 +1469,7 @@ There are **two** main types of cohort studies. These are
 
 -   Ideal for studying rare exposures
 
-### Disadvantages of prospective cohort studies
+**Disadvantages of prospective cohort studies**
 
 -   **Time and cost-intensive**: Because of the need for extended follow-up and regular data collection, prospective cohort studies are resource-intensive and often costly.
 
@@ -1483,7 +1483,7 @@ There are **two** main types of cohort studies. These are
 
 **Objective**: Investigate the relationship between smoking and lung cancer over time.
 
-**Study Setup**
+**Study setup**
 
 -   **Population**: 1,000 individuals without lung cancer at baseline.
 
@@ -1491,7 +1491,7 @@ There are **two** main types of cohort studies. These are
 
 -   **Follow-Up**: Track all participants over 10 years, noting who develops lung cancer during the follow-up period.
 
-**Hypothetical Data**
+**Hypothetical data**
 
 -   **Smokers**: 400 participants, of whom 80 develop lung cancer over 10 years.
 
@@ -1501,7 +1501,7 @@ There are **two** main types of cohort studies. These are
 
     ![](images/clipboard-2220487469.png)
 
-    ### Explanation of the contigency table
+    **Explanation of the contingency table**
 
     -   **Rows**: Represent the two exposure groups—**Smokers** and **Non-Smokers**.
 
@@ -1525,17 +1525,97 @@ There are **two** main types of cohort studies. These are
 
 -   The temporal clarity strengthens the argument for a causal relationship, although confounding factors should be considered and adjusted for in a full analysis.
 
+##### **Retrospective cohort studies**
+
+-   A **retrospective cohort study** is an observational study design where researchers look back in time to examine how past exposures affect current outcomes.
+
+-   In this type of study, both the exposure and the outcome have already occurred by the time the study begins, but the design still involves following the cohort from exposure to outcome in a chronological sequence.
+
+![](images/clipboard-1940065782.png){width="396"}
+
+**Key steps in a retrospective cohort study**
+
+-   **Identify a cohort**
+
+    -   Define a group based on past records. For example, employees of a factory over the past 10 years or patients from a specific clinic over a certain period.
+
+-   **Define exposure groups**
+
+    -   Classify participants as exposed or unexposed based on historical data. In a study on smoking and lung cancer, researchers might classify individuals as smokers or non-smokers based on past medical records, health surveys, or employment health checks.
+
+-   **Outcome measurement**
+
+    -   Check if the participants have developed the outcome of interest (e.g., lung cancer) by reviewing past records, such as medical histories or health databases.
+
+-   **Data analysis**
+
+    -   Calculate the incidence of the outcome in each group and analyze relative risk or odds ratio to assess the strength of the association between exposure and outcome.
+
+**Advantages of retrospective cohort studies**
+
+-   **Time and cost efficient**: Since the exposure and outcome have already occurred, it’s faster and less costly than a prospective cohort study.
+
+-   **Temporal sequence**: Exposure precedes outcome, which helps establish a temporal relationship between the risk factor and the outcome.
+
+-   **Ideal for rare rxposures**: Retrospective studies can focus on rare exposures in specific populations, making them efficient for such purposes.
+
+**Disadvantages of retrospective cohort studies**
+
+-   **Reliance on existing data**: Accuracy depends on the quality and completeness of existing records, which may have missing or inaccurate information.
+
+-   **Limited control over data collection**: Since data is historical, researchers cannot control how exposure and outcome information was originally gathered.
+
+-   **Potential for recall and selection bias**: If participants report their exposure retrospectively or if certain groups are more likely to have complete records, bias may be introduced.
+
+    **Example: Retrospective cohort study**
+
+    In this example, researchers use hospital records to investigate the association between smoking (exposure) and lung cancer (outcome) in a population of patients over the past decade.
+
+    **Objective**: Investigate the association between smoking and lung cancer using past hospital records.
+
+    **Retrospective data**
+
+    From hospital records, the following data were obtained:
+
+    -   **Smokers**: Out of 400 smokers, 80 developed lung cancer.
+
+    -   **Non-Smokers**: Out of 600 non-smokers, 15 developed lung cancer.
+
+    ![](images/clipboard-1680301639.png){width="492"}
+
+    Calculations
+
+    ![](images/clipboard-1386550926.png){width="541"}
+
+**Odds Ratio (OR)**: Although not always necessary in cohort studies, the odds ratio can be calculated in retrospective studies. It is particularly useful if the outcome is rare:
+
+![](images/clipboard-4004169560.png){width="387"}
+
+Here, an OR of approximately 9.77 suggests that smokers have almost 10 times the odds of developing lung cancer compared to non-smokers.
+
+**Interpretation**
+
+-   The **RR of 8.0** suggests that smokers have eight times the risk of developing lung cancer compared to non-smokers.
+
+-   The **OR of 9.77** (calculated here as a supplementary measure) supports this finding, showing that smoking is strongly associated with lung cancer risk.
+
+**Summary**
+
+-   In this retrospective cohort study, the relative risk and odds ratio both indicate a strong association between smoking and lung cancer.
+
+-   Although the retrospective design limits control over data quality, the study provides valuable insights into how smoking increases the risk of lung cancer.
+
 ### Key Measures in Prospective Cohort Studies
 
-1.  **Incidence rate**: The rate at which new cases of the outcome occur in a population over time.
+-   **Incidence rate**: The rate at which new cases of the outcome occur in a population over time.
 
     ![](images/clipboard-260987568.png){width="252" height="36"}
 
-2.  **Relative Risk (RR)**: A measure that compares the risk of the outcome in the exposed group to the risk in the unexposed group.
+-   **Relative Risk (RR)**: A measure that compares the risk of the outcome in the exposed group to the risk in the unexposed group.
 
     ![](images/clipboard-1215194790.png){width="362"}
 
-3.  **Attributable Risk (AR)**: The difference in incidence between exposed and unexposed groups, representing the incidence of disease that could potentially be prevented if the exposure were eliminated.
+-   **Attributable Risk (AR)**: The difference in incidence between exposed and unexposed groups, representing the incidence of disease that could potentially be prevented if the exposure were eliminated.
 
     **Attributable Risk(AR) = Incidence in Exposed - Incidence in unexposed**
 
@@ -1546,6 +1626,10 @@ There are **two** main types of cohort studies. These are
 -   They provide essential data on incidence, enable the study of multiple outcomes from a single exposure, and support a temporal sequence between exposure and outcome. However, they require significant resources and are susceptible to biases from loss to follow-up and confounding.
 
 -   Despite these challenges, prospective cohort studies are among the most powerful observational designs for exploring causality in epidemiology.
+
+### Retrospective cohort studies
+
+A **retrospective cohort study** is an observational study design where researchers look back in time to examine how past exposures affect current outcomes. In this type of study, both the exposure and the outcome have already occurred by the time the study begins, but the design still involves following the cohort from exposure to outcome in a chronological sequence.
 
 The **key features** of cohort studies include;
 
