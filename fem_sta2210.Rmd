@@ -1405,7 +1405,7 @@ Some of the types of cohorts include
 
 Design steps
 
-identify one or more groups of individuals who share some common attribute (the ‘cohort’) • classify cohort members according to the key exposure(s) of interest DESIGN STEPS • follow-up cohort members to determine disease occurrence • relate information on disease occurrence to exposure
+identify one or more groups of individuals who share some common attribute (the ‘cohort’) • classify cohort members according to the key exposure(s) of interest • follow-up cohort members to determine disease occurrence • relate information on disease occurrence to exposure
 
 strengths
 
