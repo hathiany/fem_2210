@@ -1605,87 +1605,59 @@ Here, an OR of approximately 9.77 suggests that smokers have almost 10 times the
 
 -   Although the retrospective design limits control over data quality, the study provides valuable insights into how smoking increases the risk of lung cancer.
 
-### Key Measures in Prospective Cohort Studies
+#### Case-Control studies
 
--   **Incidence rate**: The rate at which new cases of the outcome occur in a population over time.
+Case-control studies are observational studies commonly used in epidemiology to identify factors associated with a particular outcome, such as a **disease**. In these studies, participants are selected based on their **outcome** **status** (e.g., having a disease vs. not having it).
 
-    ![](images/clipboard-260987568.png){width="252" height="36"}
+**Structure**:
 
--   **Relative Risk (RR)**: A measure that compares the risk of the outcome in the exposed group to the risk in the unexposed group.
+-   ***Cases***: Participants who have the outcome or disease.
 
-    ![](images/clipboard-1215194790.png){width="362"}
+-   ***Controls***: Participants who do not have the outcome or disease.
 
--   **Attributable Risk (AR)**: The difference in incidence between exposed and unexposed groups, representing the incidence of disease that could potentially be prevented if the exposure were eliminated.
+The starting point in case-control studies is the definition of a group of people with a particular disease/ or condition. Suitable controls without the disease, and representing the population from which the cases originated are also selected.
 
-    **Attributable Risk(AR) = Incidence in Exposed - Incidence in unexposed**
+Information on the prevalence of past exposures in cases and controls is then collected. Thus, in a study of death from respiratory infection, the cases could be children who died from pneumonia. Controls night be healthy children of the same age.
 
-**In summary**
+If we are interested in household crowding as a risk factor or exposure, information would be gathered on how many other children the case children and control children shared a room with.
 
--   **Prospective cohort** studies are a gold standard for studying the effects of risk factors on the development of disease over time.
+Researchers look backward to determine exposure to potential risk factors, making it a retrospective study design.
 
--   They provide essential data on incidence, enable the study of multiple outcomes from a single exposure, and support a temporal sequence between exposure and outcome. However, they require significant resources and are susceptible to biases from loss to follow-up and confounding.
+**Study Population**
 
--   Despite these challenges, prospective cohort studies are among the most powerful observational designs for exploring causality in epidemiology.
+-   **This is the tricky part**. One cannot just find some people with the disease (cases) and then just compare them to any other people without the disease (controls).
 
-### Retrospective cohort studies
+-   The important point is that both the cases and the controls must come from the same population and must be representative of that population. Note that the population for a case control study is usually called the base population (as it is where the cases and controls are based).
 
-A **retrospective cohort study** is an observational study design where researchers look back in time to examine how past exposures affect current outcomes. In this type of study, both the exposure and the outcome have already occurred by the time the study begins, but the design still involves following the cohort from exposure to outcome in a chronological sequence.
+-   In practise the controls are usually selected from the population from which the cases arose in such a way that they fully represent that population from which the cases came.
 
-The **key features** of cohort studies include;
+-   The cases therefore in practise determine who the population is and one must then ensure that the controls then represent that population. The cases by virtue of being cases automatically represent the people from the population with the outcome (disease)
 
--   **Longitudinal Follow-Up**: Cohort studies are designed to observe participants over a specified period, which may be ***months, years, or even decades***. They measure the incidence (new cases) of a disease or outcome over time.
+-   Hence selection of the controls is the tricky part, as one must make sure that they fully represent the base population. For example if one were to take pnuemonia amongst children aged 5 to 15 years living within a district as the cases, then the controls would have to come from children aged 5 to 15 years living within that same district but who do not have pnuemonia.
 
--   **Exposed vs. Unexposed Groups**: A cohort study typically starts by identifying two groups within the cohort: those who have been exposed to a risk factor or intervention (e.g., smokers) and those who have not (e.g., non-smokers). The study then tracks outcomes in both groups to assess any association with the exposure.
+![](images/clipboard-815944603.png){width="501"}
 
--   **Prospective vs. Retrospective Cohort Studies**
+**Merits of Case-Control Studies**
 
-    -   **Prospective Cohort Study**: Enrolls participants and follows them into the future. Data on exposure and other variables are collected at the start and monitored over time.
+1.  **Efficiency with Rare Outcomes**: Case-control studies are ideal for studying rare diseases or outcomes because they start with cases.
 
-    -   **Retrospective Cohort Study**: Uses past records to determine participants’ exposure status and follows them up to the present to assess outcomes. It’s faster and less expensive than prospective studies but relies on the availability and accuracy of historical data.
+2.  **Time and Cost-Effective**: Since these studies are retrospective, they often require less time and resources than prospective cohort studies.
 
-<!-- -->
+3.  **Study of Multiple Exposures**: Researchers can examine multiple risk factors or exposures in relation to the outcome.
 
--   **Temporal Relationship**: Since exposure is measured before the outcome occurs, cohort studies can establish a temporal sequence, which strengthens causal inferences.
+4.  **Smaller Sample Size**: They typically require fewer participants compared to cohort studies, which makes data collection easier and less costly.
 
-Design steps
+**Demerits of Case-Control Studies**
 
-identify one or more groups of individuals who share some common attribute (the ‘cohort’) • classify cohort members according to the key exposure(s) of interest • follow-up cohort members to determine disease occurrence • relate information on disease occurrence to exposure
+1.  **Recall Bias**: Since participants are asked to recall past exposures, there is a high risk of memory-based inaccuracies, especially if the exposure occurred a long time ago.
 
-strengths
+2.  **Selection Bias**: Selecting appropriate controls can be challenging, as they need to be similar to cases except for the outcome.
 
-They can be used to study relatively **rare exposures**
+3.  **Cannot Establish Causation**: Case-control studies show associations but cannot confirm causality due to the retrospective nature.
 
-(1) They can be used to study a **wide range of disease outcomes**
+4.  **Difficulty with Rare Exposures**: If an exposure is rare, finding a strong enough association with the outcome may be challenging.
 
-(2) Information on **exposure** relates to time period **before disease onset**
-
-(3) Detailed information on **confounding factors** can be collected
-
-(4) Detailed data on exposure permits opportunity to study **‘dose-response’ relationships**
-
-    Weaknesses
-
-(5) Study size
-
-(6) Cost of data collection
-
-(7) Time required to conduct the study — and losses to follow-up Because of the strengths and weaknesses, cohort studies are most often used when the disease of interest is common and/or the effects of the exposure are nonspecific or not well-defined
-
-    sources of bias
-
-(8) Selection of cohort(s) Are cohort(s) representative of all potential cohort members? ( 2) Choice of the comparison group p g p Do the ‘exposed’ differ from the ‘unexposed’ with respect to other factors? Healthy worker effect
-
-(9) Ascertainment of disease status Completeness — LOSSES TO FOLLOW-UP Ascertainment without knowledge of exposure?
-
-Analysis
-
-a\. Comparison of disease rates in cohort with rates in general population
-
-b\. Compare disease risk (or rate) in exposed cohort members with unexposed cohort members
-
-Comparison of cohort groups
-
-RR, RR, OR
+#### Intervention studies
 
 ##### A pictorial illustration of the study designs considered
 
