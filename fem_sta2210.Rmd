@@ -38,7 +38,7 @@ library(e1071)
 library(lattice)
 library(ggplot2)
 library(mvtnorm)
-#library(tinytex)
+library(tinytex)
 ```
 
 # Introduction
@@ -1048,12 +1048,17 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 
 ## **Key differences between measures of association and measures of effect**
 
-| Aspect | Measure of association | Measure of effect |
-|------------------------|------------------------|------------------------|
-| **Focus** | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease |
-| **Purpose** | Determine if and how strongly exposure is linked to disease | Estimate how much of the disease is caused by the exposure |
-| **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
-| **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
++----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| Aspect               | Measure of association                                        | Measure of effect                                                                    |
++======================+===============================================================+======================================================================================+
+| **Focus**            | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease                  |
++----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| **Purpose**          | Determine if and how strongly exposure is linked to disease   | Estimate how much of the disease is caused by the exposure                           |
++----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| **Examples**         | Relative Risk (RR), Odds Ratio (OR)                           | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
++----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| **Use**              | Understanding relationships for epidemiological hypotheses    | Guiding public health interventions and policy decisions                             |
++----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
 
 # Introduction to epidemiological study designs
 
@@ -1607,7 +1612,7 @@ Here, an OR of approximately 9.77 suggests that smokers have almost 10 times the
 
 #### Case-Control studies
 
-Case-control studies are observational studies commonly used in epidemiology to identify factors associated with a particular outcome, such as a **disease**. In these studies, participants are selected based on their **outcome** **status** (e.g., having a disease vs. not having it).
+Case-control studies are observational studies commonly used in epidemiology to identify factors associated with a particular **outcome**, such as a **disease**. In these studies, participants are selected based on their **outcome** **status** (e.g., having a disease vs. not having it).
 
 **Structure**:
 
@@ -1627,43 +1632,217 @@ Researchers look backward to determine exposure to potential risk factors, makin
 
 -   **This is the tricky part**. One cannot just find some people with the disease (cases) and then just compare them to any other people without the disease (controls).
 
--   The important point is that both the cases and the controls must come from the same population and must be representative of that population. Note that the population for a case control study is usually called the base population (as it is where the cases and controls are based).
+-   The important point is that both the cases and the controls must come from the **same population** and must be representative of that population. Note that the population for a case control study is usually called the **base population** (as it is where the cases and controls are based).
 
--   In practise the controls are usually selected from the population from which the cases arose in such a way that they fully represent that population from which the cases came.
+##### **Choosing controls**
 
--   The cases therefore in practise determine who the population is and one must then ensure that the controls then represent that population. The cases by virtue of being cases automatically represent the people from the population with the outcome (disease)
+-   In practice the controls are usually selected from the population from which the cases arose in such a way that they fully represent that population from which the cases came.
 
--   Hence selection of the controls is the tricky part, as one must make sure that they fully represent the base population. For example if one were to take pnuemonia amongst children aged 5 to 15 years living within a district as the cases, then the controls would have to come from children aged 5 to 15 years living within that same district but who do not have pnuemonia.
+-   The cases therefore in practice determine who the population is and one ***must then ensure that the controls then represent that population***.
 
-![](images/clipboard-815944603.png){width="501"}
+-   The cases by virtue of being cases automatically represent the people from the population with the outcome (disease)
 
-**Merits of Case-Control Studies**
+-   Hence selection of the controls is the tricky part, as one must make sure that they fully represent the base (target) population. For example if one were to take pnuemonia amongst children aged 5 to 15 years living within a district as the cases, then the controls would have to come from children aged 5 to 15 years living within that same district but who do not have pnuemonia.
 
-1.  **Efficiency with Rare Outcomes**: Case-control studies are ideal for studying rare diseases or outcomes because they start with cases.
+![](images/clipboard-815944603.png){width="475"}
 
-2.  **Time and Cost-Effective**: Since these studies are retrospective, they often require less time and resources than prospective cohort studies.
+**Matching controls to cases**
 
-3.  **Study of Multiple Exposures**: Researchers can examine multiple risk factors or exposures in relation to the outcome.
+-   Matching is a method of dealing with confounding in epidemiological studies. In selecting controls, one must have a similar distribution as the confounding variable such as ***age*** or ***sex***.
 
-4.  **Smaller Sample Size**: They typically require fewer participants compared to cohort studies, which makes data collection easier and less costly.
+-   Match a limited number of controls (2 or 3 at most)
 
-**Demerits of Case-Control Studies**
+-   A matching design **must** have a matching analysis
 
-1.  **Recall Bias**: Since participants are asked to recall past exposures, there is a high risk of memory-based inaccuracies, especially if the exposure occurred a long time ago.
+**How many controls per case?**
 
-2.  **Selection Bias**: Selecting appropriate controls can be challenging, as they need to be similar to cases except for the outcome.
+-   If the number of cases is limited, statistical power can be improved/increased by increasing the number of controls per case. However, little benefit is achieved with over 4 controls per case.
 
-3.  **Cannot Establish Causation**: Case-control studies show associations but cannot confirm causality due to the retrospective nature.
+**Analysis of case-control studies**
 
-4.  **Difficulty with Rare Exposures**: If an exposure is rare, finding a strong enough association with the outcome may be challenging.
+The measure of effect in a case-control study is the **Odds Ratio.** Given the following contingency table, the OR is obtained as follows;
 
-#### Intervention studies
+|           | Cases | Controls |
+|-----------|-------|----------|
+| Exposed   | a     | b        |
+| Unexposed | c     | d        |
+| Totals    | a+c   | b+d      |
 
-##### A pictorial illustration of the study designs considered
+Odds Ratio = (a/c)/(b/d)=ad/bc
 
-| Cross-sectional | Cohort | Case-Control | Experimental |
-|------------------|------------------|------------------|------------------|
+**Advantages of case-control studies**
+
+-   **Efficiency with rare outcomes**: Case-control studies are ideal for studying rare diseases or outcomes because they start with cases.
+
+-   **Time and cost-effective**: Since these studies are retrospective, they often require less time and resources than prospective cohort studies.
+
+-   **Possible to study multiple exposures**: Researchers can examine multiple risk factors or exposures in relation to the outcome.
+
+-   **Smaller sample size**: They typically require fewer participants compared to cohort studies, which makes data collection easier and less costly.
+
+**Disadvantages of case-control studies**
+
+-   **Recall bias**: Since participants are asked to recall past exposures, there is a high risk of memory-based inaccuracies, especially if the exposure occurred a long time ago.
+
+-   **Selection bias**: Selecting appropriate controls can be challenging, as they need to be similar to cases except for the outcome.
+
+-   **Cannot establish causation**: Case-control studies show associations but cannot confirm causality due to the retrospective nature.
+
+-   **Difficulty with rare exposures**: If an exposure is rare, finding a strong enough association with the outcome may be challenging.
+
+**Example of a Case-Control study**
+
+**Study Objective**: To determine if physical inactivity is associated with an increased risk of type 2 diabetes.
+
+**Study Design**
+
+-   **Cases**: Identify 300 individuals recently diagnosed with type 2 diabetes from a hospital or diabetes clinic.
+
+-   **Controls**: Select 300 individuals without diabetes from the same community, matched to cases by age, gender, and socioeconomic status to reduce confounding.
+
+-   **Data Collection**: Collect information on physical activity levels from both cases and controls through interviews or questionnaires. Define physical inactivity as engaging in less than 150 minutes of moderate-intensity exercise per week (the standard minimum recommended for adults).
+
+-   **Analysis**: Calculate the odds ratio (OR) to evaluate the association between physical inactivity and type 2 diabetes risk.
+
+### Solution
+
+Suppose we obtain the following data:
+
+-   **Physical Inactivity Prevalence**:
+
+    -   **Cases (Diabetes)**: 210 out of 300 (70%) report physical inactivity.
+
+    -   **Controls (No Diabetes)**: 120 out of 300 (40%) report physical inactivity.
+
+    |   | Physically Inactive (Yes) | Physically Inactive (No) | Total |
+    |----|----|----|----|
+    | Cases (Diabetes) | 210 | 90 | 300 |
+    | Controls (No Diabetes) | 120 | 180 | 300 |
+    | Total | 330 | 270 | 600 |
+
+**Calculate the Odds Ratio (OR)**
+
+The OR compares the odds of physical inactivity among cases to the odds among controls.
+
+-   **Odds of inactivity in cases**: =210/90=2.33
+
+-   **Odds of inactivity in controls**: =120/180=0.67
+
+Thus
+
+OR = 2.33/0.67 = 3.48
+
+**Interpretation**:
+
+An OR of 3.48 suggests that individuals who are physically inactive are over three times more likely to develop type 2 diabetes than those who are physically active.
+
+### Conclusion
+
+-   This case-control study shows a significant association between physical inactivity and type 2 diabetes, indicating that lack of physical activity may be a strong risk factor for the disease.
+
+-   These findings could support interventions promoting physical activity to help reduce diabetes risk in the population.
+
+##### **Nested case-control studies**
+
+-   A **nested case-control study** is a type of case-control study that is conducted within a **cohort study**.
+
+-   In this design, cases and controls are drawn from participants who are already part of a larger cohort, often one where data on exposures or risk factors have been previously collected.
+
+-   This approach combines the strengths of both cohort and case-control studies while reducing the cost and time associated with data collection.
+
+-   Some of the key features of these studies include;
+
+    -   **Cohort-based**: The study starts with a cohort where individuals are followed over time.
+
+    -   **Case and control selection**: Cases (individuals who develop the outcome of interest) are identified during the follow-up period, and for each case, one or more controls are selected from those who have not developed the outcome by the time the case develops. Controls are matched to cases based on time of follow-up, and sometimes on other factors like age and gender.
+
+    -   **Exposure information**: In a nested case-control study, exposure information is collected *before* the disease or outcome occurs, making it less prone to recall bias than traditional case-control studies.
+
+    -   **Efficiency**: This design is more efficient than conducting a full cohort study because data collection for controls only occurs at the time of case diagnosis.
+
+        **Steps in conducting a nested case-control study**
+
+    -   **Start with a cohort**: Identify and enroll a cohort of individuals who are followed over time to monitor disease or outcome development.
+
+    -   **Case identification**: Identify cases from the cohort as they occur during the follow-up period. These are individuals who develop the disease of interest.
+
+    -   **Select controls**: For each case, select one or more controls from the cohort who have not developed the disease by the time the case occurs. Controls are often matched to cases based on factors such as age, sex, or other characteristics.
+
+    -   **Data collection**: Collect data on exposure or risk factors (e.g., lifestyle habits, genetic information) for both cases and controls. This can be done using medical records, surveys, laboratory tests, or biomarkers.
+
+    -   **Analysis**: Compare the frequency of exposure between cases and controls to estimate the odds ratio (OR) or relative risk (RR) for the association between the exposure and disease.
+
+        **Advantages**
+
+    -   **Efficient and cost-effective**: Exposure data is typically collected once at the start of the cohort study, reducing the need for repeated data collection.
+
+    -   **Reduces recall bias**: Since exposure is measured before the disease develops, there is less chance for recall bias.
+
+    -   **More precise estimates**: As the study is nested within an existing cohort, it generally provides more accurate and reliable results than an independent case-control study.
+
+    -   **Disadvantages**
+
+    -   **Selection bias**: The selection of cases and controls is limited to the cohort, and if the cohort itself is not representative of the general population, the findings may not be generalizable.
+
+    -   **Time constraints**: The study may take a long time to identify enough cases to generate meaningful results.
+
+        **Example of a Nested Case-Control study**
+
+**Study Objective**: To determine if occupational exposure to asbestos is associated with an increased risk of lung cancer in middle-aged adults.
+
+**Study Design**
+
+-   **Cohort**: A cohort of 50,000 individuals aged 40–60 is enrolled and followed over 10 years to monitor for lung cancer development.
+
+-   **Case identification**: After 5 years, 200 individuals in the cohort are diagnosed with lung cancer. These individuals become the "cases."
+
+-   **Control selection**: For each of the 200 cases, two controls are selected from cohort members who have not developed lung cancer by the time each case is diagnosed. Controls are matched to cases on age, gender, and geographic location.
+
+-   **Exposure data collection**: At cohort enrollment, participants’ occupational histories are recorded, including whether they have ever worked in environments with asbestos exposure (e.g., construction, shipbuilding, manufacturing). The level and duration of exposure are also noted.
+
+-   **Analysis**: Using the occupational exposure data, we compare the prevalence of asbestos exposure between cases and controls. An odds ratio (OR) is calculated to evaluate whether asbestos exposure is associated with an increased risk of lung cancer.
+
+**Solution**
+
+-   **Asbestos Exposure Prevalence**
+
+    -   **Cases** (lung cancer): 120 out of 200 (60%) report occupational asbestos exposure.
+
+    -   **Controls**: 180 out of 400 (45%) report occupational asbestos exposure.
+
+-   **Calculating the Odds Ratio (OR)**
+
+    The odds ratio estimates the likelihood of asbestos exposure among cases relative to controls.
+
+![](images/clipboard-4052380741.png){width="513"}
+
+**Interpretation**
+
+An OR of 1.83 suggests that individuals with occupational asbestos exposure have an 83% higher likelihood of developing lung cancer compared to those without such exposure, after adjusting for age, gender, and geographic location.
+
+**Conclusion**
+
+-   This nested case-control study shows a significant association between occupational asbestos exposure and lung cancer risk, even when controlling for other demographic factors.
+
+-   By leveraging the cohort's pre-collected data, this approach efficiently evaluates the impact of asbestos on lung cancer incidence.
+
+#### Intervention studies - Randomized Controlled Trials (RCTs)
+
+-   RCT’s are considered, with reason, especially "strong" study designs in terms of their ability to provide evidence of causal association between risk factors and health outcomes.
+
+-   Form this point of view, they can be thought as the opposite end than the Cross-sectional study design which are weak in assessing causality.
+
+-   Here, we present a definition of what a RCTs are, their main feature, the appropriate measures to be used to express their results, and a summary of their strengths and weaknesses
+
+-   A  RCT is a type of **intervention** study (in which the experimenter controls the exposure, as opposed to **observational** studies, in which the exposure is determined by external factors), often used to study the fficacy/effectiveness of various type of interventions (e.g. drugs, medical procedures, preventive interventions)
+
+**A pictorial illustration of the study designs considered**
+
++-------------------------------------+--------------------------------------------------+--------------------------------------+--------------------------------------+
+| Cross-sectional                     | Cohort                                           | Case-Control                         | Experimental                         |
++=====================================+==================================================+======================================+======================================+
 | ![](images/clipboard-693206586.png) | ![](images/clipboard-994150909.png){width="203"} | ![](images/clipboard-1627651497.png) | ![](images/clipboard-2475022218.png) |
++-------------------------------------+--------------------------------------------------+--------------------------------------+--------------------------------------+
 
 # Interpretation of Epidemiological Studies
 
@@ -1688,3 +1867,5 @@ While preparing these notes, I have benefited from various authors and would lik
 -   Outbreak toolkit <https://outbreaktools.ca/background/descriptive-epidemiology/>
 
 -   What Is the Epidemiologic Triangle? <https://www.rivier.edu/academics/blog-posts/what-is-the-epidemiologic-triangle/>
+
+-   Gordis, L. (2009). Epidemiology(4th edition). Philadelphia: Sanders. p 131-140.
