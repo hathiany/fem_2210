@@ -2330,6 +2330,136 @@ Identification of possible bias is a difficult exercise but is crucial to improv
 
 NB: **There are some forms of bias that have both selection and information components. These include, medical surveillance (or detection) bias, cross-sectional bias (incidence-prevalence bias, temporal bias) among others.**
 
+# Causality
+
+## Introduction
+
+-   The primary goal of the epidemiologist is to identify those factors that have a causal impact on development or prevention of a health outcome, thereby providing a target for prevention and intervention.
+
+-   At first glance, causality may appear to be a relatively simple concept to define. However, adequately distinguishing causal agents from non-causal agents is not an easy task from an epidemiologic perspective. Unfortunately, there is no elementary parameter that can be measured to provide a definitive answer when determining causality.
+
+-   Rather, **there are a series of criteria that have been developed and refined over the years that now serve as the guideline for causal inference**. The most important point to remember is that causality is not determined by any one factor, rather it is a conclusion built on the preponderance of the evidence.
+
+-   Epidemiologist **Austin Bradford Hill** is credited with identifying the nine (9) factors that constitute the current standard for determining causality (1965). In his article, Hill expanded upon criteria that had previously been set forth in the report Smoking and Health (1964) by the United States Surgeon General. The following is a discussion of the nine criteria defined by Hill to be utilized in the determination of causality.
+
+-   It is important to note that satisfying these criteria may lend support for causality, but failing to meet some criteria does not necessarily provide evidence against causality, either Hill’s **causal criteria** should be viewed as guidelines, not as a **“checklist”** that must be satisfied for a causal relationship to exist.
+
+## Hill’s Criteria for Causation
+
+-   Hill’s Criteria for Causation, established by Sir Austin Bradford Hill in 1965, are a set of principles designed to assess whether a specific association between an exposure and an outcome **can be deemed causal**.
+
+-   While these criteria do not provide absolute proof, they offer a framework for evaluating causality in epidemiological studies and **help guide public health and clinical decision-making**.
+
+### **The Nine Criteria**
+
+1.  **Strength of Association**
+
+    -   The stronger the association between the exposure and the outcome, the more likely it is to be causal.
+
+    -   Measured by effect size indicators, such as relative risk or odds ratio. Strong associations (e.g., a high relative risk) are less likely to be due to confounding or bias.
+
+    -   **Example**: The association between smoking and lung cancer has a high relative risk, strengthening the argument for causation.
+
+2.  **Consistency**
+
+    -   The association is observed repeatedly across different studies, populations, and settings.
+
+    -   Consistent findings suggest that the relationship is not due to random variation or study-specific biases.
+
+    -   **Example**: Multiple studies across diverse populations have found an association between asbestos exposure and mesothelioma, supporting a causal link.
+
+3.  **Specificity**
+
+    -   The association is specific when an exposure leads to a single or very specific outcome, and not many others.
+
+    -   Specificity is a more traditional criterion that is not always relevant in complex diseases (e.g., smoking causes multiple health issues).
+
+    -   **Example**: A link between rubella infection during pregnancy and congenital rubella syndrome is highly specific.
+
+4.  **Temporality**:
+
+    -   The exposure must precede the outcome to establish causation. This is the only absolutely necessary criterion.
+
+    -   It confirms that the cause occurs before the effect, ruling out reverse causation.
+
+    -   **Example**: For smoking to cause lung cancer, smoking must occur before lung cancer develops.
+
+5.  **Biological Gradient** (Dose-Response Relationship):
+
+    -   A dose-response relationship exists if increasing levels of exposure are associated with progressively higher or lower rates of the outcome.
+
+    -   If higher exposure levels increase the outcome's risk, this supports causality.
+
+    -   **Example**: The more cigarettes smoked daily, the greater the risk of developing lung cancer.
+
+6.  **Plausibility**
+
+    -   There should be a biologically plausible mechanism explaining how the exposure could lead to the outcome.
+
+    -   Plausibility is based on existing knowledge of biological mechanisms and can be limited by current scientific understanding.
+
+    -   **Example**: It is biologically plausible that smoking causes lung cancer because tobacco smoke contains carcinogens that damage lung cells.
+
+7.  **Coherence**
+
+    -   The association should be consistent with the known biology, history, and distribution of the disease, without contradicting established scientific knowledge.
+
+    -   Coherence strengthens causality by aligning with what is already known about disease mechanisms.
+
+    -   **Example**: The link between smoking and lung cancer aligns with epidemiological and laboratory data on carcinogens in tobacco smoke.
+
+8.  **Experiment**
+
+    -   Experimental evidence, such as reducing exposure to the factor and observing a decrease in outcome risk, supports causality.
+
+    -   Experimental studies, like randomized controlled trials, provide strong evidence but may not always be feasible for ethical reasons.
+
+    -   **Example**: Reducing air pollution levels has been experimentally shown to decrease respiratory and cardiovascular issues.
+
+9.  **Analogy**
+
+    -   Similar causal relationships in different but related exposures can provide additional evidence for causality.
+
+    -   If one substance (e.g., smoking) is known to cause cancer, it might be reasonable to consider that a similar exposure (e.g., passive smoke exposure) could have similar effects.
+
+    -   **Example**: If certain viruses cause cancer in animals, it’s plausible that similar viruses might cause cancer in humans.
+
+### Applying Hill’s Criteria
+
+-   Hill's criteria are meant to be used together, not in isolation, to weigh the evidence for causation.
+
+-   Temporality is essential, but not all criteria need to be met for a causal inference, especially in complex diseases with multiple factors. For example, a causal inference might be justified without specificity if other criteria, such as strength, consistency, and plausibility, strongly support the association.
+
+**Example: Smoking and Lung Cancer**
+
+Using Hill’s criteria, the causal link between smoking and lung cancer is supported by:
+
+-   **Strength**: Strong relative risk.
+
+-   **Consistency**: Repeated findings across numerous studies and populations.
+
+-   **Specificity**: Smoking leads to multiple outcomes, so specificity is limited here, but the strong association with lung cancer is notable.
+
+-   **Temporality**: Smoking precedes lung cancer.
+
+-   **Biological Gradient**: Dose-response relationship.
+
+-   **Plausibility**: Known carcinogens in tobacco smoke.
+
+-   **Coherence**: Findings align with known mechanisms of cancer.
+
+-   **Experiment**: Reduction in smoking rates correlates with a decrease in lung cancer incidence.
+
+-   **Analogy**: Passive smoke exposure also associated with lung cancer.
+
+**Limitations**
+
+Hill’s criteria do not provide conclusive proof of causation. They are a guide rather than a strict checklist, and applying them requires careful consideration of study design, bias, and confounding. Furthermore, not every causal relationship will meet all nine criteria. For example, complex diseases like heart disease or diabetes may involve multiple risk factors without specificity.
+
+**Summary**
+
+Hill’s criteria help evaluate the strength of evidence supporting a causal relationship. Although not definitive, they are useful for guiding epidemiologists and public health practitioners in interpreting associations and making decisions about health interventions and policies.
+
 # **Useful links / Recommended books**
 
 While preparing these notes, I have benefited from various authors and would like to share some of the details as follows
