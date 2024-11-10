@@ -1048,17 +1048,12 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 
 ## **Key differences between measures of association and measures of effect**
 
-+----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
-| Aspect               | Measure of association                                        | Measure of effect                                                                    |
-+======================+===============================================================+======================================================================================+
-| **Focus**            | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease                  |
-+----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
-| **Purpose**          | Determine if and how strongly exposure is linked to disease   | Estimate how much of the disease is caused by the exposure                           |
-+----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
-| **Examples**         | Relative Risk (RR), Odds Ratio (OR)                           | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
-+----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
-| **Use**              | Understanding relationships for epidemiological hypotheses    | Guiding public health interventions and policy decisions                             |
-+----------------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| Aspect | Measure of association | Measure of effect |
+|----------------|------------------------|---------------------------------|
+| **Focus** | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease |
+| **Purpose** | Determine if and how strongly exposure is linked to disease | Estimate how much of the disease is caused by the exposure |
+| **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
+| **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
 
 # Introduction to epidemiological study designs
 
@@ -1704,7 +1699,7 @@ Odds Ratio = (a/c)/(b/d)=ad/bc
 
 -   **Analysis**: Calculate the odds ratio (OR) to evaluate the association between physical inactivity and type 2 diabetes risk.
 
-### Solution
+**Solution**
 
 Suppose we obtain the following data:
 
@@ -1732,11 +1727,11 @@ Thus
 
 OR = 2.33/0.67 = 3.48
 
-**Interpretation**:
+**Interpretation**
 
 An OR of 3.48 suggests that individuals who are physically inactive are over three times more likely to develop type 2 diabetes than those who are physically active.
 
-### Conclusion
+**Conclusion**
 
 -   This case-control study shows a significant association between physical inactivity and type 2 diabetes, indicating that lack of physical activity may be a strong risk factor for the disease.
 
@@ -1826,23 +1821,187 @@ An OR of 1.83 suggests that individuals with occupational asbestos exposure have
 
 -   By leveraging the cohort's pre-collected data, this approach efficiently evaluates the impact of asbestos on lung cancer incidence.
 
-#### Intervention studies - Randomized Controlled Trials (RCTs)
+### Intervention studies
 
--   RCT’s are considered, with reason, especially "strong" study designs in terms of their ability to provide evidence of causal association between risk factors and health outcomes.
+-   An **intervention study** is a type of research in which investigators introduce a specific intervention or treatment to study its effects on a particular outcome in a population.
 
--   Form this point of view, they can be thought as the opposite end than the Cross-sectional study design which are weak in assessing causality.
+-   Also known as **experimental** or **clinical trials**, intervention studies are considered the [**gold standard**]{.underline} for establishing [**causal relationships**]{.underline} in health research, especially when [**randomized**]{.underline}.
 
--   Here, we present a definition of what a RCTs are, their main feature, the appropriate measures to be used to express their results, and a summary of their strengths and weaknesses
+-   They are often used to test **new treatments**, **health policies**, or **preventive measures**.
 
--   A  RCT is a type of **intervention** study (in which the experimenter controls the exposure, as opposed to **observational** studies, in which the exposure is determined by external factors), often used to study the fficacy/effectiveness of various type of interventions (e.g. drugs, medical procedures, preventive interventions)
+-   In these studies, we deliberately allocate the exposure to individual(s)/communities.
 
-**A pictorial illustration of the study designs considered**
+-   However, for ethical reasons, we cannot expose people to factors which might increase the risk of disease or death (such as smoking), but we can intervene to reduce exposure (e.g. in smoking) or allocate an alternative treatment.
 
-+-------------------------------------+--------------------------------------------------+--------------------------------------+--------------------------------------+
-| Cross-sectional                     | Cohort                                           | Case-Control                         | Experimental                         |
-+=====================================+==================================================+======================================+======================================+
+-   The preferred form of intervention study is a Randomized Control Trial (aka RCT) in which the intervention or exposure is randomly assigned to either the group level (i.e community trial) or individual level (i.e. clinical trial)/individual field trial.
+
+-   There is also an alternative of a non-randomized trial.
+
+-   All interventional studies are analytical since they study the effect of exposure on the outcome.
+
+-   To measure the effect of exposure, the outcomes are measured/compared between the different exposure groups.
+
+    #### Types of intervention studies
+
+The following is a brief summary of the different types of intervention studies
+
+-   **Randomized Controlled Trials (RCTs)**
+
+    -   Considered the **most rigorous** design for testing **causal** relationships.
+
+    -   RCT’s are considered, with reason, especially "strong" study designs in terms of their ability to provide evidence of **causal** association/relationship between risk factors and health outcomes.
+
+    -   Form this point of view, they can be thought as the opposite end than the Cross-sectional study design which are weak in assessing causality.
+
+    -   A RCT is a type of **intervention** study (in which the experimenter controls the exposure, as opposed to **observational** studies, in which the exposure is determined by external factors), often used to study the efficacy/effectiveness of various type of interventions (e.g. drugs, medical procedures, preventive interventions)
+
+    -   The critical step that distinguishes RCTs from other study designs is randomization: in RCTs study subjects, after assessment of eligibility and recruitment, but before the study begins, are **randomly allocated** to receive one or other of the alternative exposures. That is, participants are **randomly** assigned to either an **intervention** group or a **control** group.
+
+    -   After random allocation to one of two or more groups, subjects are followed in the same ways, to ensure, as far as it is possible, that the only difference between them is the exposure (to different medical treatments, for example), and the outcomes over time are compared.
+
+        The rationale behind this procedure is that:
+
+        -   random allocation of subjects ensures that, on average, there are **no differences between subjects in the different groups before the treatment starts**;
+
+        -   same procedure of follow up (which means, for example, same kind of test, same number of visits, etc.) ensures that there are **no differences during the study period**, beside the exposure;
+
+        -   as a consequence, if the outcome is different between the two groups, then **the cause must be the exposure**.
+
+            ![](images/clipboard-2536042364.png){width="464"}
+
+-   **Non-Randomized Trials**:
+
+    -   Participants are assigned to groups based on predefined criteria rather than random assignment.
+
+    -   Useful when randomization is not feasible but may be subject to more bias.
+
+-   **Community Trials**:
+
+    -   Conducted on a community or group level rather than on individuals.
+
+    -   Often used for public health interventions, such as water fluoridation or anti-smoking campaigns in communities.
+
+#### Key Components of Intervention Studies
+
+1.  **Population**:
+
+    -   Define a target population relevant to the study’s objective.
+
+    -   Select a sample that represents this population.
+
+2.  **Intervention**:
+
+    -   Clearly define the treatment, drug, procedure, or policy introduced in the intervention group.
+
+    -   The intervention should be standardized and reproducible.
+
+3.  **Control Group**:
+
+    -   A group that does not receive the intervention or receives a placebo.
+
+    -   Serves as a baseline for comparison to assess the intervention's effects.
+
+4.  **Randomization** (for RCTs):
+
+    -   Participants are randomly assigned to the intervention or control group.
+
+    -   Minimizes selection bias and helps ensure that groups are comparable.
+
+5.  **Blinding**:
+
+    -   **Single-Blind**: Participants are unaware of their group assignment.
+
+    -   **Double-Blind**: Both participants and investigators are unaware of group assignments.
+
+    -   Blinding helps reduce bias in both treatment administration and outcome assessment.
+
+6.  **Outcome Measurement**:
+
+    -   Define primary and secondary outcomes to be measured (e.g., reduction in disease, improvement in symptoms).
+
+    -   Outcomes should be measured consistently across all groups.
+
+7.  **Follow-Up**:
+
+    -   Monitor participants over a specified period to observe the effects of the intervention.
+
+    -   Essential for tracking adherence and capturing long-term effects.
+
+8.  **Analysis**:
+
+    -   Calculate effect measures such as risk ratio, relative risk reduction, or odds ratio.
+
+    -   Statistical tests are used to determine if observed differences are statistically significant.
+
+#### Phases of Clinical Trials (for Drug Studies)
+
+1.  **Phase I**: Safety and dosage testing on a small group of healthy volunteers.
+
+2.  **Phase II**: Efficacy and side effects testing on a larger group with the condition.
+
+3.  **Phase III**: Large-scale testing for efficacy and monitoring of adverse reactions.
+
+4.  **Phase IV**: Post-marketing surveillance to collect additional information on risks and benefits.
+
+**Example of an Intervention Study**
+
+A study is designed to assess whether a new medication, Drug X, reduces the risk of heart attacks in patients with hypertension.
+
+**Study design**
+
+-   **Population**: Patients with hypertension aged 40-65 years.
+
+-   **Intervention Group**: Patients receive Drug X.
+
+-   **Control Group**: Patients receive a placebo.
+
+-   **Randomization**: Participants are randomly assigned to either the intervention or control group.
+
+-   **Blinding**: Double-blind; neither participants nor doctors know who receives Drug X or placebo.
+
+-   **Outcome**: Incidence of heart attack over a 5-year follow-up period.
+
+    **Hypothetical Results**
+
+|               | Heart Attack (Yes) | Heart Attack (No) | Total |
+|---------------|--------------------|-------------------|-------|
+| Drug X Group  | 10                 | 490               | 500   |
+| Placebo group | 30                 | 470               | 500   |
+| **Total**     | 40                 | 960               | 1000  |
+
+![](images/clipboard-3726182330.png){width="595"}
+
+-   This indicates that patients taking Drug X had a **67% lower risk** of heart attack compared to the placebo group.
+
+#### Strengths of Intervention Studies
+
+-   **Strongest Evidence for Causality**: Well-designed RCTs can demonstrate a cause-and-effect relationship.
+
+-   **Controlled Environment**: Reduces potential confounders.
+
+-   **Blinding**: Minimizes bias in treatment and outcome assessment.
+
+#### Limitations of Intervention Studies
+
+-   **Ethical Constraints**: Some interventions (e.g., smoking) cannot be ethically assigned.
+
+-   **Costly and Time-Consuming**: High cost and resource requirements can limit study size and duration.
+
+-   **Generalizability**: Results from highly controlled environments may not generalize to real-world settings.
+
+**Summary**
+
+-   Intervention studies, particularly RCTs, are vital for establishing causal relationships in health research.
+
+-   They require careful planning and ethical consideration but provide the most robust evidence when evaluating new treatments, medications, or preventive measures.
+
+-   By using a rigorous design, including randomization and blinding, intervention studies can produce reliable results to inform clinical and public health practices.
+
+**A pictorial illustration of the study designs considered ABOVE**
+
+| Cross-sectional | Cohort | Case-Control | Experimental |
+|-----------------|---------------------|-----------------|-----------------|
 | ![](images/clipboard-693206586.png) | ![](images/clipboard-994150909.png){width="203"} | ![](images/clipboard-1627651497.png) | ![](images/clipboard-2475022218.png) |
-+-------------------------------------+--------------------------------------------------+--------------------------------------+--------------------------------------+
 
 # Interpretation of Epidemiological Studies
 
