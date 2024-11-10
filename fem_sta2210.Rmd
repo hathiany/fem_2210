@@ -2407,7 +2407,7 @@ The table below shows the crude analysis of the results from the study. The resu
 
 ![](images/clipboard-2235883636.png){width="394"}
 
-### A “real”/ true association between male gender and malaria can be inferred if these results are free of random (sampling) and systematic (bias) errors; that is; males do have higher risk of malaria in this particular population setting.
+- A “real”/ true association between male gender and malaria can be inferred if these results are free of random (sampling) and systematic (bias) errors; that is; males do have higher risk of malaria in this particular population setting.
 
 The next question would be, whether the **association is *causal*-** that is, whether there is something inherent to gender that would **render males more susceptible to the disease than females** (e.g. hormonal factor). Alternatively, a characteristic that is associated with both gender and an increased risk of malaria may be responsible for the association.
 
@@ -2427,13 +2427,13 @@ The associations of the confounder with both exposure and work environment in th
 
 ![](images/clipboard-2201570531.png){width="496"}
 
-·       Compared with only 9% (13/144) of females, 43.6% (68/156) of males have mostly outdoor occupations, yielding an odds ratio of 7.8.
+- Compared with only 9% (13/144) of females, 43.6% (68/156) of males have mostly outdoor occupations, yielding an odds ratio of 7.8.
 
-·       Forty-two percent (63/150) of malaria cases, but only 12% (18/150) of controls, have mostly outdoor occupations, yielding an odds ratio of 5.3.
+- Forty-two percent (63/150) of malaria cases, but only 12% (18/150) of controls, have mostly outdoor occupations, yielding an odds ratio of 5.3.
 
 **Note:** The strong positive associations of the confounder (work environment) with both the risk factor of interest (male gender) and the outcome (“malaria status”) suggest that work environment may indeed have a strong confounding effect.
 
-**a)     Does the exposure-outcome association seen in crude analysis have the same direction and similar magnitude as the association seen within [strata]{.underline} of the confounding variable?**
+**a) Does the exposure-outcome association seen in crude analysis have the same direction and similar magnitude as the association seen within [strata]{.underline} of the confounding variable?**
 
 Stratification according to the confounder represents one of the strategies to control for its effects. When there is confounding effect, the associations [***seen across strata***]{.underline}of the potentially confounding variable are of **similar magnitude to each other but are all different from the crude estimate.**
 
@@ -2449,13 +2449,13 @@ In the following table, the estimated odds ratios in both strata are very close 
 
 *Because of “noncollapsibility” of stratum specific estimates, the strategy of comparing stratum-specific odds ratios with crude (pooled/unadjusted) odds ratio for the assessment of confounding should be confirmed through the use of the previous strategy.*
 
-**a)     Does the exposure-outcome association seen in the crude analysis have the same direction and similar magnitude as that seen after controlling (adjusting) for the confounding variable?**
+**a)Does the exposure-outcome association seen in the crude analysis have the same direction and similar magnitude as that seen after controlling (adjusting) for the confounding variable?**
 
 Perhaps the most persuasive approach to determine whether there is a confounding effect is the comparison between [**adjusted and crude associations**]{.underline}. Work done separately shows that the Mantel-Haenszel adjusted Odds ratio for this example is 1.01. (See next set of notes). This odds ratio is merely a weighted average of the stratum-specific odds ratios shown in the previous case.
 
-### The comparison between the crude (1.71) and the work environment-adjusted (1.01) odds ratios is consistent with and confirms the inference based on the previous strategies illustrated in part (a) and (b), that increased risk of malaria in males (odds increased by 71%) resulted from their being more likely to work outdoors.
+**The comparison between the crude (1.71) and the work environment-adjusted (1.01) odds ratios is consistent with and confirms the inference based on the previous strategies illustrated in part (a) and (b), that increased risk of malaria in males (odds increased by 71%) resulted from their being more likely to work outdoors.**
 
-**Types of confounding effects**
+#### Types of confounding effects
 
 Confounding may lead to overestimation of the true strength of the association (positive confounding) or its underestimation (negative confounding). In other words, in positive confounding, the magnitude of the unadjusted (vis-à-vis the adjusted) association is [**exaggerated**]{.underline}; in negative confounding, it is [**attenuated**]{.underline}. The term overestimation and underestimation are used in reference to the [**null hypothesis**]{.underline}(e.g. OR=1).
 
@@ -2471,11 +2471,11 @@ Examples 4 through 6 show the reverse situation-namely, negative confounding, in
 
 An extreme case of confounding is when the confounding effect results in an inversion of the direction of association (examples 7 and 8), phenomenon that can be properly designated as quality confounding.
 
-### Effect of misclassification in a confounding variable
+**Effect of misclassification in a confounding variable**
 
 If misclassification occurs in a confounding variable, then this will result in an imperfect adjustment when that variable is matched or controlled for in the analyses. The imperfect adjustment results in what is referred to as residual confounding.
 
-# Controlling for confounding
+#### Controlling for confounding
 
 In order to control for confounding in an epidemiological study, one may consider any one or combination of the following approaches;
 
@@ -2507,11 +2507,11 @@ b)     Control at the analysis stage
 
 **A.    Control of confounding: *at the design stage***
 
-### Options at the design stage:
+**Options at the design stage:**
 
 a)     Randomization
 
-### ·       Reduces potential for confounding by generating groups that are fairly comparable with respect to known and unknown confounding variables (attempts to simulate a counterfactual contrast)
+**Reduces potential for confounding by generating groups that are fairly comparable with respect to known and unknown confounding variables (attempts to simulate a counterfactual contrast)**
 
 ·       Useful only for intervention studies
 
@@ -2527,7 +2527,7 @@ o Covariate imbalance after randomization can occur in small trials
 
 o If there is “maldistribution” of potentially confounding variables after randomization then other confounding control options are applied
 
-### ·       Eliminates variation in the confounder (e.g. only recruiting males into the study will eliminate confounding by sex)
+**Eliminates variation in the confounder (e.g. only recruiting males into the study will eliminate confounding by sex)**
 
 ·       Confounding cannot occur if the distribution of the potential confounding factors do not vary across exposure or disease categories
 
@@ -2551,7 +2551,7 @@ o Not possible to evaluate the relationship of interest at different levels of t
 
 c)     Matching
 
-### ·       Involves selection of a comparison group that is forced to resemble the index group with respect to the distribution of one or more potential confounders
+**Involves selection of a comparison group that is forced to resemble the index group with respect to the distribution of one or more potential confounders**
 
 ·       Matching is commonly used in case-control studies (where each case is matched to a control)
 
@@ -2565,7 +2565,7 @@ o Frequency matching
 
 ·       The use of matching usually requires special analysis techniques (e.g. matched pair analyses and conditional logistic regression)
 
-### Matching in a case control study
+**Matching in a case control study**
 
 Why can matching introduce confounding in a case-control study?
 
@@ -2660,7 +2660,7 @@ A common method of doing this is to use the **Mantel-Haenszel method**. This met
 
 Another major method which uses the principle of stratification is standardisation. This method is commonly used when comparing rates.
 
-### Mantel-Haenszel method for estimating an adjusted measure of association
+**Mantel-Haenszel method for estimating an adjusted measure of association**
 
 When the measure of association of interest is the odds ratio (i.e when one is analysing results of a case-control study), the method described by Mantel-Haenszel to calculate an overall adjusted odds ratio is frequently used for adjusting for one or more categorically defined potential confounders.
 
