@@ -2038,7 +2038,7 @@ Male circumcision significantly reduces the risk of HIV acquisition in young men
 
 5.  What did they conclude?
 
-6.  Do you agree with their conclusion 
+6.  Do you agree with their conclusion?
 
 ### **A pictorial illustration of the study designs considered ABOVE**
 
@@ -2074,37 +2074,43 @@ Male circumcision significantly reduces the risk of HIV acquisition in young men
 
 ### Strengths and Weakness of observational and analytical designs
 
-+-----------------------+------------+-----------------+--------------+--------+
-|                       | Ecological | Cross-Sectional | Case-Control | Cohort |
-+=======================+============+=================+==============+========+
-| **Possibility of** :  | N/A        | Medium          | High         | Low    |
-|                       |            |                 |              |        |
-| -   Selection bias    | N/A        | High            | High         | Low    |
-|                       |            |                 |              |        |
-| -   Information bias  | N/A        | N/A             | N/A          | Hig    |
-|                       |            |                 |              |        |
-| -   Loss-to-follow-up | N/A        | Medium          | Medium       | Low    |
-|                       |            |                 |              |        |
-| -   Confounding       |            |                 |              |        |
-+-----------------------+------------+-----------------+--------------+--------+
-| **Time Required**     | Low        | Medium          | Medium       | High   |
-+-----------------------+------------+-----------------+--------------+--------+
-| **Cost**              | Low        | Low             | Medium       | High   |
-+-----------------------+------------+-----------------+--------------+--------+
++-----------------------+------------+-----------------+--------------+------------+
+|                       | Ecological | Cross-Sectional | Case-Control | Cohort     |
++=======================+============+=================+==============+============+
+| **Possibility of** :  | N/A        | Medium          | High         | Low        |
+|                       |            |                 |              |            |
+| -   Selection bias    | N/A        | High            | High         | Low        |
+|                       |            |                 |              |            |
+| -   Information bias  | N/A        | N/A             | N/A          | Hig        |
+|                       |            |                 |              |            |
+| -   Loss-to-follow-up | N/A        | Medium          | Medium       | Low        |
+|                       |            |                 |              |            |
+| -   Confounding       |            |                 |              |            |
++-----------------------+------------+-----------------+--------------+------------+
+| **Time Required**     | Low        | Medium          | Medium       | High       |
++-----------------------+------------+-----------------+--------------+------------+
+| **Cost**              | Low        | Low             | Medium       | High       |
++-----------------------+------------+-----------------+--------------+------------+
 
 ### Measures of Exposure Effect & Disease Occurrence in Analytical Study Designs
 
-| Type of study | Measures of disease occurence | Measure of effect |
-|----|----|----|
-| Ecological | Rate, Risk, Prevalence | Correlation/Regression coefficient |
-| Cross-sectional | Prevalence, Odds | Prevalence Ratio, Difference, Odds Ratio |
-| Cohort | Rate, Risk, Odds, Mean, Median | Rate Ratio, Risk Ratio, Odds, Ratio, Rate Difference, Risk Difference, Vaccine Efficacy, Diff (mean, median) |
-| Case-Control | None[^5] | Odds Ratio, Vaccine Efficacy |
-| Intervention | Rate, Risk, Odds, Mean, Median | Rate Ratio, Risk Ratio, Odds, Ratio, Rate Difference, Risk Difference, Vaccine Efficacy, Diff (mean, median) |
++-----------------+--------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Type of study   | Measures of disease occurence  | Measure of effect                                                                                            |
++=================+================================+==============================================================================================================+
+| Ecological      | Rate, Risk, Prevalence         | Correlation/Regression coefficient                                                                           |
++-----------------+--------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Cross-sectional | Prevalence, Odds               | Prevalence Ratio, Difference, Odds Ratio                                                                     |
++-----------------+--------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Cohort          | Rate, Risk, Odds, Mean, Median | Rate Ratio, Risk Ratio, Odds, Ratio, Rate Difference, Risk Difference, Vaccine Efficacy, Diff (mean, median) |
++-----------------+--------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Case-Control    | None[^5]                       | Odds Ratio, Vaccine Efficacy                                                                                 |
++-----------------+--------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Intervention    | Rate, Risk, Odds, Mean, Median | Rate Ratio, Risk Ratio, Odds, Ratio, Rate Difference, Risk Difference, Vaccine Efficacy, Diff (mean, median) |
++-----------------+--------------------------------+--------------------------------------------------------------------------------------------------------------+
 
 [^5]: Unless the sampling fractions are known for both cases and controls
 
-# Bias, Confounding and Effect Modification
+# Bias and Confounding
 
 ## Introduction
 
@@ -2162,12 +2168,9 @@ Male circumcision significantly reduces the risk of HIV acquisition in young men
 
     (a) **Population validity**:
 
-    <!-- -->
+        i)  How representative is the sample of the population? The more representative, the more confident we can be in generalizing from the sample to the population.
 
-    i.  How representative is the sample of the population? The more representative, the more confident we can be in generalizing from the sample to the population.
-    ii. How widely does the finding apply? Generalizing across populations occurs when a particular research finding works across many different kinds of people, even those not represented in the sample.
-
-    <!-- -->
+        ii) How widely does the finding apply? Generalizing across populations occurs when a particular research finding works across many different kinds of people, even those not represented in the sample.
 
     (b) **Ecological validity**: Ecological validity is present to the degree that a result generalizes across settings.
 
@@ -2223,7 +2226,7 @@ Therefore, there are two major classes of bias:
 
 -   Selection bias is an important/major problem in case-control and retrospective cohort studies while it is less likely to occur in a prospective cohort study. Selection bias cannot be completely excluded in a case-control study because non-participation between cases and control subjects may have differed.
 
-#### Sources of Selection Bias
+##### Sources of Selection Bias
 
 -   **Design**: Design bias is an error that can occur due to fault in the study design (as studies done on poorly defined populations or with unsuitable control groups).
 
@@ -2269,7 +2272,7 @@ Error due to **systematic differences in the way data on exposure or outcome are
 
 When the information obtained from study participants is **systematically inaccurate regarding the disease or exposure** under study, information bias may occur. Whenever the **accuracy of the information** about exposure is different in cases and controls, a **differential information bias** occurs. Such bias could result in an over- or under-estimate of the real association depending on the circumstances. For example, if exposure is under-recognized in cases, an underestimation of a **positive association** will occur, but if exposure is under-recognized in controls, an **overestimation of a positive association** will occur.
 
-#### Sources of Information Bias
+##### Sources of Information Bias
 
 There are several sources of information bias; here, we will present the most common ones
 
@@ -2329,6 +2332,367 @@ In practice, bias can’t be totally prevented. Consequently, it is always neces
 Identification of possible bias is a difficult exercise but is crucial to improve validity. Bias is most effectively dealt with through careful design and meticulous conduct of study. If potential source of bias is introduced, it is usually difficult to correct for its effect analytically.
 
 NB: **There are some forms of bias that have both selection and information components. These include, medical surveillance (or detection) bias, cross-sectional bias (incidence-prevalence bias, temporal bias) among others.**
+
+### Confounding
+
+*Confounding is sometimes referred to as the third major class of **bias**. It is a function of the complex interrelationships between various exposures and disease (outcome)*
+
+**Or**
+
+*Simply, confounding refers to a situation in which a non-causal association between a given exposure and an outcome is observed as a result of the influence of a third variable (or group of variables), usually designated as a confounding variable, or merely a confounder.*
+
+**Or**
+
+*Confounding is a distortion (inaccuracy) in the estimated measure of association that occurs when the primary exposure of interest is mixed up with some other factor that is associated with the outcome*
+
+**Or**
+
+*Whereas bias involves error in the measurement of a variable; confounding involves error in the interpretation of what may be an accurate measurement. Confounding in epidemiology is mixing of the effect of the exposure under study on the disease (outcome) with that of a third factor that is associated with the exposure and an independent risk factor for the disease (outcome) (even among individuals non-exposed to the exposure factor under study).*
+
+**Or**
+
+*“Confounding is confusion, or mixing, of effects; the effect of the exposure is mixed together with the effect of another variable, leading to bias” - Rothman, 2002*
+
+Since most diseases have multiple contributing causes (risk factors), there are many possible confounders
+
+-   A confounder can be another **risk factor** for the disease. For example, in the hypothetical cohort study testing the association between exercise and heart disease, age is a confounder because it is a risk factor for heart disease.
+
+-   Similarly a confounder can also be a **preventive factor** for the disease. If those people who exercised regularly were more likely to take aspirin, and aspirin reduces the risk of heart disease, then aspirin use would be a confounding factor that would tend to exaggerate the benefit of exercise.
+
+-   A confounder can also be a **surrogate or a marker** for some other cause of disease. For example, socioeconomic status may be a confounder in this example because lower socioeconomic status is a marker for a complex set of poorly understood factors that seem to carry a higher risk of heart disease.
+
+The consequence of confounding is that the estimated **association is not the same as true effect**. In contrast to other forms of bias, in confounding bias the actual data collected may be correct but the subsequent effect attributed to the exposure of interest is actually caused by something else. **Classic example of confounding is the initial association between alcohol consumption and lung cancer (confounded by smoking, which is associated with alcohol use and an independent risk factor for lung cancer)**. Likewise, an association between gambling and cancer is confounded by at least smoking and alcohol.
+
+Confounding can cause **overestimation or underestimation** of the true association and may even change the direction of the observed effect. An example is the confounding by age of an inverse association between level of exercise and heart attacks (younger people having more rigorous exercise) causing overestimation. The same association can also be confounded by sex (men having more rigorous exercise) causing underestimation of the association. For a variable to confound an association, it must be associated both with the exposure and outcome, and its relation to the outcome should be independent of its association with the exposure (i.e., not through its association with the exposure).
+
+Confounding factor **should not be an intermediate link in the causal chain between the exposure and disease under study**. Age and sex are associated with virtually all diseases and are related to the presence or level of many exposures. Even though they act as surrogates for etiologic factors most of the time, age and sex should always be considered as potential confounders of an association.
+
+Bias and confounding are not affected by sample size but chance effect (random variation) diminishes as sample size gets larger. A small ***p-value*** and a narrow odds ratio/relative risk confidence interval are reassuring signs against chance effect but the same cannot be said for bias and confounding.
+
+Confounding is more likely to occur in observational than in experimental epidemiology studies because the likelihood that groups under comparison (e.g. exposed and unexposed) differ with regard to confounding variables is minimised in experimental studies as a result of random allocation. In these studies, the randomly selected subsamples of the reference population are expected to be comparable with regard to the distribution of both known and unknown confounders, particularly when large samples are involved.
+
+[***Crude vs. Adjusted Effects***]{.underline}
+
+**Crude:** does not take into account the effect of the confounding variable
+
+**Adjusted:** accounts for the confounding variable(s) (what we get by pooling stratum-specific effect estimates)
+
+i)  Generating using methods such as Mantel-Haenszel estimator
+
+ii) Also generated using multivariate analyses (e.g. logistic regression)
+
+**Confounding** is likely when:
+
+o RRcrude in NOT equal RRadjusted
+
+o ORcrude in NOT equal ORadjusted
+
+#### Assessing the presence of confounding
+
+In observational studies, assessment of confounding effect is carried out for variables that are known or suspected to be confounders. **The identification of potential confounders is usually based on prior knowledge of the dual association of the possible confounder with the exposure and the outcome,** the two poles of study hypothesis.
+
+In addition to the a priori knowledge about these associations, it is important to verify whether confounding is present in the study. There are several approaches to assess the presence of confounding, which are related to the following questions:
+
+**a) Is the potential confounding variable related to both the exposure and the outcome in the study?**
+
+**b)Does the exposure-outcome association seen in crude analysis have the same direction and similar magnitude as the association seen within strata of the confounding variable?**
+
+**c)Does the exposure-outcome association seen in the crude analysis have the same direction and similar magnitude as that seen after controlling (adjusting) for the confounding variable?**
+
+**Illustrative Example**
+
+Let’s illustrate these different approaches of assessing the presence and magnitude of confounding effect using a hypothetical case-control study of **male gender** as a possible risk factor for malaria infection.
+
+The table below shows the crude analysis of the results from the study. The results suggest that males are at higher risk of malaria than females (OR=1.7)
+
+![](images/clipboard-2235883636.png){width="394"}
+
+### A “real”/ true association between male gender and malaria can be inferred if these results are free of random (sampling) and systematic (bias) errors; that is; males do have higher risk of malaria in this particular population setting.
+
+The next question would be, whether the **association is *causal*-** that is, whether there is something inherent to gender that would **render males more susceptible to the disease than females** (e.g. hormonal factor). Alternatively, a characteristic that is associated with both gender and an increased risk of malaria may be responsible for the association.
+
+One such characteristic is **work environment, in the sense that** individuals who primarily work outdoors (e.g.in agriculture) are more likely to be exposed to the mosquito bite that results in the disease than those who work indoors.
+
+![](images/clipboard-1748360301.png){width="552"}
+
+Therefore, if the proportion of individuals with mostly outdoor occupations were higher in males than in females, working environment might explain the observed association between gender and malaria.
+
+Let’s get back to our questions for assessing confounding:
+
+**a)     Is the potential confounding variable related to both the exposure and the outcome in the study?**
+
+The associations of the confounder with both exposure and work environment in this example can be illustrated as follows:
+
+![](images/clipboard-2842978271.png){width="478"}
+
+![](images/clipboard-2201570531.png){width="496"}
+
+·       Compared with only 9% (13/144) of females, 43.6% (68/156) of males have mostly outdoor occupations, yielding an odds ratio of 7.8.
+
+·       Forty-two percent (63/150) of malaria cases, but only 12% (18/150) of controls, have mostly outdoor occupations, yielding an odds ratio of 5.3.
+
+**Note:** The strong positive associations of the confounder (work environment) with both the risk factor of interest (male gender) and the outcome (“malaria status”) suggest that work environment may indeed have a strong confounding effect.
+
+**a)     Does the exposure-outcome association seen in crude analysis have the same direction and similar magnitude as the association seen within [strata]{.underline} of the confounding variable?**
+
+Stratification according to the confounder represents one of the strategies to control for its effects. When there is confounding effect, the associations [***seen across strata***]{.underline}of the potentially confounding variable are of **similar magnitude to each other but are all different from the crude estimate.**
+
+In the following table, the estimated odds ratios in both strata are very close to one and are different from the crude value, thus suggesting that the work environment is a confounder that explains virtually all of the association between male gender and the presence of malaria.
+
+![](images/clipboard-1513447594.png){width="397"}
+
+![](images/clipboard-3342359393.png){width="450"}
+
+**If the association seen in the unadjusted analysis had persisted within strata of the suspected confounder, it could have been appropriate to conclude that a confounding effect of work environment did not explain the association observed between male gender and malaria.**
+
+*If we intend to use stratification as a means to verify presence of confounding, we must note that for odds ratio, rate ratios and absolute differences between rates; the crude odds ratio is sometimes different from the stratum-specific odds ratio even if confounding is absent.*
+
+*Because of “noncollapsibility” of stratum specific estimates, the strategy of comparing stratum-specific odds ratios with crude (pooled/unadjusted) odds ratio for the assessment of confounding should be confirmed through the use of the previous strategy.*
+
+**a)     Does the exposure-outcome association seen in the crude analysis have the same direction and similar magnitude as that seen after controlling (adjusting) for the confounding variable?**
+
+Perhaps the most persuasive approach to determine whether there is a confounding effect is the comparison between [**adjusted and crude associations**]{.underline}. Work done separately shows that the Mantel-Haenszel adjusted Odds ratio for this example is 1.01. (See next set of notes). This odds ratio is merely a weighted average of the stratum-specific odds ratios shown in the previous case.
+
+### The comparison between the crude (1.71) and the work environment-adjusted (1.01) odds ratios is consistent with and confirms the inference based on the previous strategies illustrated in part (a) and (b), that increased risk of malaria in males (odds increased by 71%) resulted from their being more likely to work outdoors.
+
+**Types of confounding effects**
+
+Confounding may lead to overestimation of the true strength of the association (positive confounding) or its underestimation (negative confounding). In other words, in positive confounding, the magnitude of the unadjusted (vis-à-vis the adjusted) association is [**exaggerated**]{.underline}; in negative confounding, it is [**attenuated**]{.underline}. The term overestimation and underestimation are used in reference to the [**null hypothesis**]{.underline}(e.g. OR=1).
+
+For instance, an unadjusted odds ratio of 0.7 is (in absolute terms) **“greater”** than an unadjusted odds ratio of 0.3; however, the fact that the former **is closer than the later to the odds ratio denoting lack of association** (1.0) defines the confounding effect as positive.
+
+The following table gives hypothetical examples showing relative risk estimates which illustrate the effect of confounding.
+
+![](images/clipboard-4154139162.png){width="569"}
+
+The first three examples show unadjusted associations, which either disappear or become weaker when confounding is adjusted for.
+
+Examples 4 through 6 show the reverse situation-namely, negative confounding, in which the unadjusted is an “underestimate” of the adjusted relative risk (vis-à-vis the null hypothesis). Adjustment reveals or strengthens an association that was rendered either absent (example 4) or weakened (example 5 and 6) because of confounding.
+
+An extreme case of confounding is when the confounding effect results in an inversion of the direction of association (examples 7 and 8), phenomenon that can be properly designated as quality confounding.
+
+### Effect of misclassification in a confounding variable
+
+If misclassification occurs in a confounding variable, then this will result in an imperfect adjustment when that variable is matched or controlled for in the analyses. The imperfect adjustment results in what is referred to as residual confounding.
+
+# Controlling for confounding
+
+In order to control for confounding in an epidemiological study, one may consider any one or combination of the following approaches;
+
+a)     Control at the design stage
+
+(i)          Randomization
+
+(ii)          Restriction
+
+(iii)          Matching
+
+b)     Control at the analysis stage
+
+(i)          Conventional approaches
+
+·  Stratified analyses
+
+·  Multivariate analyses
+
+(ii)          Newer approaches
+
+·  Graphical approaches using DAGs
+
+·  Propensity scores
+
+·  Instrumental variables
+
+·  Marginal structural models
+
+**A.    Control of confounding: *at the design stage***
+
+### Options at the design stage:
+
+a)     Randomization
+
+### ·       Reduces potential for confounding by generating groups that are fairly comparable with respect to known and unknown confounding variables (attempts to simulate a counterfactual contrast)
+
+·       Useful only for intervention studies
+
+·       **Definition:** random assignment of study subjects to exposure categories (this breaks any links between exposure and confounders)
+
+·       The special strength of randomization is its ability to control/reduce the effect of confounding variables about which the investigator is unaware(i.e. both known and unknown confounders get distributed evenly because of randomization)
+
+·       Randomization does not always eliminate confounding, because
+
+b)     Restriction
+
+o Covariate imbalance after randomization can occur in small trials
+
+o If there is “maldistribution” of potentially confounding variables after randomization then other confounding control options are applied
+
+### ·       Eliminates variation in the confounder (e.g. only recruiting males into the study will eliminate confounding by sex)
+
+·       Confounding cannot occur if the distribution of the potential confounding factors do not vary across exposure or disease categories
+
+o Implication of this is that an investigator may restrict study subjects to only those falling with specific level(s) of a confounding variable
+
+ü  Extreme example: an investigator only selects subjects of exactly the same age or same sex.
+
+·       Advantages of restriction
+
+o Straight forward, convenient, inexpensive (but, reduces recruitment!)
+
+·       Disadvantages
+
+o Will limit number of eligible subjects
+
+o Will limit ability to generalize the study findings
+
+o Residual confounding may persist if restriction categories not sufficiently narrow (e.g. “decade of age” might be too broad)
+
+o Not possible to evaluate the relationship of interest at different levels of the confounder
+
+c)     Matching
+
+### ·       Involves selection of a comparison group that is forced to resemble the index group with respect to the distribution of one or more potential confounders
+
+·       Matching is commonly used in case-control studies (where each case is matched to a control)
+
+o For example, if age and sex are the matching variables, then a 35 year old male case is matched to a 35 year old male control
+
+·       Types:
+
+o Pair matching (one to one individual matching)
+
+o Frequency matching
+
+·       The use of matching usually requires special analysis techniques (e.g. matched pair analyses and conditional logistic regression)
+
+### Matching in a case control study
+
+Why can matching introduce confounding in a case-control study?
+
+-   The purpose of the control series in a case-control study is to permit an estimate of the person-time distribution of exposure in the source population (study base) from which cases arose
+
+<!-- -->
+
+-   In other words, controls selected for a case-control study are supposed to reflect the distribution of exposure in the source population.
+
+<!-- -->
+
+-   If controls are selected to match the cases for a factor that is correlated with exposure, this will change the distribution of the control population away from the distribution in the source population
+
+    -   then the crude exposure odds in controls is distorted in the direction of similarity to that of the cases (e.g. friend controls of the same age and sex).
+
+-   This will introduce a selection bias that is very similar to confounding.
+
+-   If the matching factor were perfectly correlated with the exposure, the exposure distribution of controls would be identical to cases, and the crude OR estimate would be 1.0
+
+-   So, matching (whose well-meaning goal is to reduce confounding) does not attain that objective in case-control studies
+
+    -   It substitutes a new confounding structure for the old one
+
+    -   At times, it will introduce new confounding where none previously existed
+
+    -   So, use matching with caution
+
+    -   If you must match, then match on a strong confounder
+
+The confounding introduced by matching into a case-control study is not irremediable
+
+-   The proper form of analysis is needed in matched studies in order to reduce the confounding introduced by matching
+
+    -   Matched Odds Ratios
+
+    -   Conditional logistic regression
+
+***General rule: paired data must be treated as such in the analysis (do not break up the pairs!)***
+
+**A.    Control of confounding: *at the analysis stage***
+
+Unlike selection and information bias, confounding is one type of bias that can be, to some extent, adjusted in the analysis
+
+Options at the analysis stage:
+
+-   Stratification
+
+<!-- -->
+
+-   Multivariate methods
+
+To control for confounding in the analyses, one must measure the confounders in the study!
+
+-   *Investigators usually do this by collecting data on all known, previously identified confounders*
+
+-   *A sound knowledge of disease biology will help decide what to measure*
+
+**Stratification**
+
+Stratification forms the basis of most of many techniques used to control for confounding.
+
+·       Objective of stratified analysis is to “fix” the level of the confounding variable and produce groups within which the confounder does not vary
+
+·       Then evaluate the exposure-disease association within each stratum of the confounder
+
+·       Within each stratum, the confounder cannot confound because it does not vary
+
+·       The principle of stratification is to divide up data according to levels, or strata, of the confounding factor (or factors) under investigation.
+
+·       The following diagram illustrating how a stratified analysis steps:
+
+![](images/clipboard-2021933652.png){width="403"}
+
+·       We used this technique in the last sections when we were checking for the presence of confounding. For instance, suppose we consider the relationship between **Exposure E** and rate of **disease D**. The data can be split or stratified by the possible confounding **factor C** as shown below:
+
+**Example**
+
+A cohort study was set up to look at the effect of an exposure E on the incidence rate of disease D. The crude data, as shown below, indicated an association between E and D, i. e RR=2.5.
+
+![](images/clipboard-2954416335.png)
+
+However, when the data were *stratified* according to exposure factor C, the association between E and D became less **pronounced**, the rate ratio
+going from 2.5 in the crude data to 2.0 as shown in the next table
+
+![](images/clipboard-2710403345.png){width="591"}
+
+From the table, we can conclude that C has an association with the disease (Rate ratio = 2.5). If C is also associated with E, C may be said to *partially confound* the association between exposure E and disease D.
+
+Having done that, we now want to summarise the effect of E on the risk of D, allowing for or adjusting for, the confounding effect of C. in order to get this adjusted rate ratio (or odds ratio, or risk ratio we pool the stratum-specific rate ratios (or odds ratios, or risk ratios)).
+
+A common method of doing this is to use the **Mantel-Haenszel method**. This method gives a weighted average of the rate ratios (or odds ratios, or risk ratios) from the different strata. The weights are related to the numbers within each stratum: strata with larger numbers are given larger weights, and so contribute more to the summary measure effect.
+
+Another major method which uses the principle of stratification is standardisation. This method is commonly used when comparing rates.
+
+### Mantel-Haenszel method for estimating an adjusted measure of association
+
+When the measure of association of interest is the odds ratio (i.e when one is analysing results of a case-control study), the method described by Mantel-Haenszel to calculate an overall adjusted odds ratio is frequently used for adjusting for one or more categorically defined potential confounders.
+
+Consider the following table that shows the notation for the formulation of the Mantel- Haenszel adjusted odds ratio for data stratified into 𝑘 strata (groups): (In our case,𝑘 = 2)
+
+![](images/clipboard-464525735.png){width="544"}
+
+![](images/clipboard-296613395.png){width="566"}
+
+From this table, the crude association between the presence of malaria and gender suggested that males were at higher risk of disease; however, when the association was examined by strata of occupation, no association with gender was observed in either occupational category. In addition to inspecting the occupation-specific odds ratios, a summary odds ratio can be calculated, expressing the occupation –adjusted association between gender and malaria. The adjusted 𝑂𝑅~𝑀𝐻~ (the weighted average of the occupational stratum-specific odds ratio) is calculated as follows:
+
+![](images/clipboard-672002028.png){width="413"}
+
+The values used in the calculation of 𝑂𝑅~𝑀𝐻~ are obtained from the tables seen in our previous lecture hand-outs: i.e.
+
+![](images/clipboard-3114506929.png){width="558"}
+
+![](images/clipboard-3215005907.png){width="503"}
+
+It is clear from these calculations that the estimate of 𝑂𝑅~𝑀𝐻~ lies between stratum-specific estimates (1.06 and 1.00) but it is closer to the stratum “mostly outdoor occupation”
+
+because of larger sample size in that stratum, for which the estimate is consequently given more “weight” 𝑏~𝑖~𝑐~𝑖~/𝑁~𝑖~ when calculating the average adjusted 𝑂𝑅~𝑀𝐻~
+
+**NB**
+
+Therefore, if we would like to know if confounding really existed in the first place, then the following table can give a guide to that based on the crude, stratum-specific and adjusted odds ratios:
+
+![](images/clipboard-3852644807.png)
+
+In situation I, there is no confounding, because the crude and the adjusted effect estimates are similar. In situation II, there is confounding because the crude and the adjusted estimates differ.
+
+For more examples of The Cochran-Mantel-Haenszel Method, follow this link [[https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704-ep713_confounding-em/bs704-]{.underline}](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704-ep713_confounding-em/bs704-ep713_confounding-em_print.html) [[ep713_confounding-em_print.html]{.underline}](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704-ep713_confounding-em/bs704-ep713_confounding-em_print.html)
 
 # Causality
 
@@ -2462,7 +2826,7 @@ Hill’s criteria help evaluate the strength of evidence supporting a causal rel
 
 # **Useful links / Recommended books**
 
-While preparing these notes, I have benefited from various authors and would like to share some of the details as follows
+While preparing these notes, I have benefited from various authors and would like to share some of the details/links as follows
 
 -   Epidemiology: An introduction - *Open University course K311 Promoting public health:* <http://www3.open.ac.uk/study/undergraduate/course/k311.htm>
 
