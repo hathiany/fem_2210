@@ -1048,12 +1048,17 @@ In a study of Cholera vaccine, the rate of developing Cholera was estimated amon
 
 ## **Key differences between measures of association and measures of effect**
 
-| Aspect | Measure of association | Measure of effect |
-|----------------|------------------------|---------------------------------|
-| **Focus** | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease |
-| **Purpose** | Determine if and how strongly exposure is linked to disease | Estimate how much of the disease is caused by the exposure |
-| **Examples** | Relative Risk (RR), Odds Ratio (OR) | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
-| **Use** | Understanding relationships for epidemiological hypotheses | Guiding public health interventions and policy decisions |
++--------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| Aspect       | Measure of association                                        | Measure of effect                                                                    |
++==============+===============================================================+======================================================================================+
+| **Focus**    | **Strength** of the relationship between exposure and outcome | **Impact** or contribution of exposure to the occurrence of disease                  |
++--------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| **Purpose**  | Determine if and how strongly exposure is linked to disease   | Estimate how much of the disease is caused by the exposure                           |
++--------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| **Examples** | Relative Risk (RR), Odds Ratio (OR)                           | Risk Difference (RD), Attributable Fraction (AF), Population Attributable Risk (PAR) |
++--------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| **Use**      | Understanding relationships for epidemiological hypotheses    | Guiding public health interventions and policy decisions                             |
++--------------+---------------------------------------------------------------+--------------------------------------------------------------------------------------+
 
 # Introduction to epidemiological study designs
 
@@ -1841,7 +1846,7 @@ An OR of 1.83 suggests that individuals with occupational asbestos exposure have
 
 -   To measure the effect of exposure, the outcomes are measured/compared between the different exposure groups.
 
-    #### Types of intervention studies
+**Types of intervention studies**
 
 The following is a brief summary of the different types of intervention studies
 
@@ -1881,7 +1886,7 @@ The following is a brief summary of the different types of intervention studies
 
     -   Often used for public health interventions, such as water fluoridation or anti-smoking campaigns in communities.
 
-#### Key Components of Intervention Studies
+**Key Components of Intervention Studies**
 
 1.  **Population**:
 
@@ -1933,7 +1938,7 @@ The following is a brief summary of the different types of intervention studies
 
     -   Statistical tests are used to determine if observed differences are statistically significant.
 
-#### Phases of Clinical Trials (for Drug Studies)
+**Phases of Clinical Trials (for Drug Studies)**
 
 1.  **Phase I**: Safety and dosage testing on a small group of healthy volunteers.
 
@@ -1973,7 +1978,7 @@ A study is designed to assess whether a new medication, Drug X, reduces the risk
 
 -   This indicates that patients taking Drug X had a **67% lower risk** of heart attack compared to the placebo group.
 
-#### Strengths of Intervention Studies
+**Strengths of Intervention Studies**
 
 -   **Strongest Evidence for Causality**: Well-designed RCTs can demonstrate a cause-and-effect relationship.
 
@@ -1981,7 +1986,7 @@ A study is designed to assess whether a new medication, Drug X, reduces the risk
 
 -   **Blinding**: Minimizes bias in treatment and outcome assessment.
 
-#### Limitations of Intervention Studies
+**Limitations of Intervention Studies**
 
 -   **Ethical Constraints**: Some interventions (e.g., smoking) cannot be ethically assigned.
 
@@ -1997,13 +2002,333 @@ A study is designed to assess whether a new medication, Drug X, reduces the risk
 
 -   By using a rigorous design, including randomization and blinding, intervention studies can produce reliable results to inform clinical and public health practices.
 
-**A pictorial illustration of the study designs considered ABOVE**
+**Exercise  – Interpret a RCT study**
 
-| Cross-sectional | Cohort | Case-Control | Experimental |
-|-----------------|---------------------|-----------------|-----------------|
+Read through the following **abstract** of a study done to on circumcision and then answer the questions which follow.  (*Lancet 2007 Feb 24;369(9562):643-56.*)
+
+**Male circumcision for HIV prevention in young men in Kisumu, Kenya: a randomised controlled trial.** [Bailey RC](http://www.ncbi.nlm.nih.gov/pubmed?term=Bailey%20RC%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Moses S](http://www.ncbi.nlm.nih.gov/pubmed?term=Moses%20S%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Parker CB](http://www.ncbi.nlm.nih.gov/pubmed?term=Parker%20CB%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Agot K](http://www.ncbi.nlm.nih.gov/pubmed?term=Agot%20K%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Maclean I](http://www.ncbi.nlm.nih.gov/pubmed?term=Maclean%20I%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Krieger JN](http://www.ncbi.nlm.nih.gov/pubmed?term=Krieger%20JN%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Williams CF](http://www.ncbi.nlm.nih.gov/pubmed?term=Williams%20CF%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Campbell RT](http://www.ncbi.nlm.nih.gov/pubmed?term=Campbell%20RT%5BAuthor%5D&cauthor=true&cauthor_uid=17321310), [Ndinya-Achola JO](http://www.ncbi.nlm.nih.gov/pubmed?term=Ndinya-Achola%20JO%5BAuthor%5D&cauthor=true&cauthor_uid=17321310).
+
+**Abstract**
+
+**Background**
+
+Male circumcision could provide substantial protection against acquisition of HIV-1 infection. Our aim was to determine whether male circumcision had a protective effect against HIV infection, and to assess safety and changes in sexual behaviour related to this intervention.
+
+**Methods**
+
+We did a randomised controlled trial of 2784 men aged 18-24 years in Kisumu, Kenya. Men were randomly assigned to an intervention group (circumcision; n=1391) or a control group (delayed circumcision, 1393), and assessed by HIV testing, medical examinations, and behavioural interviews during follow-ups at 1, 3, 6, 12, 18, and 24 months. HIV seroincidence was estimated in an intention-to-treat analysis. This trial is registered with ClinicalTrials.gov, with the number NCT00059371.
+
+**Findings**
+
+The trial was stopped early on December 12, 2006, after a third interim analysis reviewed by the data and safety monitoring board. The median length of follow-up was 24 months. Follow-up for HIV status was incomplete for 240 (8.6%) participants. 22 men in the intervention group and 47 in the control group had tested positive for HIV when the study was stopped. The 2-year HIV incidence was 2.1% (95% CI 1.2-3.0) in the circumcision group and 4.2% (3.0-5.4) in the control group (p=0.0065); the relative risk of HIV infection in circumcised men was 0.47 (0.28-0.78), which corresponds to a reduction in the risk of acquiring an HIV infection of 53% (22-72). Adjusting for non-adherence to treatment and excluding four men found to be seropositive at enrollment, the protective effect of circumcision was 60% (32-77). Adverse events related to the intervention (21 events in 1.5% of those circumcised) resolved quickly. No behavioural risk compensation after circumcision was observed.
+
+**Interpretations**
+
+Male circumcision significantly reduces the risk of HIV acquisition in young men in Africa. Where appropriate, voluntary, safe, and affordable circumcision services should be integrated with other HIV preventive interventions and provided as expeditiously as possible.
+
+**Task Questions**
+
+1.  Who were the study population?
+
+2.  What was the intervention?
+
+3.  What did the controls receive ?
+
+4.  What was the outcome measurement?
+
+5.  What did they conclude?
+
+6.  Do you agree with their conclusion 
+
+### **A pictorial illustration of the study designs considered ABOVE**
+
++-------------------------------------+--------------------------------------------------+--------------------------------------+--------------------------------------+
+| Cross-sectional                     | Cohort                                           | Case-Control                         | Experimental                         |
++=====================================+==================================================+======================================+======================================+
 | ![](images/clipboard-693206586.png) | ![](images/clipboard-994150909.png){width="203"} | ![](images/clipboard-1627651497.png) | ![](images/clipboard-2475022218.png) |
++-------------------------------------+--------------------------------------------------+--------------------------------------+--------------------------------------+
 
-# Interpretation of Epidemiological Studies
+### Application of different observational and analytical study designs
+
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+|                                                                       | Ecological | Cross-Sectional | Case-Control | Cohort  |
++=======================================================================+============+=================+==============+=========+
+| 1.  Investigation of rare **disease(outcome)**                        | ++++       | \-              | +++++        | \-      |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+| 2.  Investigation of rare **exposures**                               | ++         | \-              | \-           | +++++   |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+| 3.  Examination of **multiple** **outcomes**                          | \+         | ++              | \-           | +++++   |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+| 4.  Measurement of temporal relationship between exposure and outcome | \+         | \-              | \+           | ++++    |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+| 5.  Direct measurement of incidence                                   | \-         | \-              | \+[^3]       | +++++   |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+| 6.  Investigation of long latent period                               | \-         | \-              | +++          | +++[^4] |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+| 7.  Studying **multiple exposures**                                   | ++         | ++              | ++++         | +++     |
++-----------------------------------------------------------------------+------------+-----------------+--------------+---------+
+
+[^3]: Incidence is only measurable if the sampling fraction is known for both cases and controls i.e. the proportion of cases and proportion of controls sampled from the population is known.
+
+[^4]: Only possible when talking of historical (retrospective) cohort studies
+
+### Strengths and Weakness of observational and analytical designs
+
++-----------------------+------------+-----------------+--------------+--------+
+|                       | Ecological | Cross-Sectional | Case-Control | Cohort |
++=======================+============+=================+==============+========+
+| **Possibility of** :  | N/A        | Medium          | High         | Low    |
+|                       |            |                 |              |        |
+| -   Selection bias    | N/A        | High            | High         | Low    |
+|                       |            |                 |              |        |
+| -   Information bias  | N/A        | N/A             | N/A          | Hig    |
+|                       |            |                 |              |        |
+| -   Loss-to-follow-up | N/A        | Medium          | Medium       | Low    |
+|                       |            |                 |              |        |
+| -   Confounding       |            |                 |              |        |
++-----------------------+------------+-----------------+--------------+--------+
+| **Time Required**     | Low        | Medium          | Medium       | High   |
++-----------------------+------------+-----------------+--------------+--------+
+| **Cost**              | Low        | Low             | Medium       | High   |
++-----------------------+------------+-----------------+--------------+--------+
+
+### Measures of Exposure Effect & Disease Occurrence in Analytical Study Designs
+
+| Type of study | Measures of disease occurence | Measure of effect |
+|----|----|----|
+| Ecological | Rate, Risk, Prevalence | Correlation/Regression coefficient |
+| Cross-sectional | Prevalence, Odds | Prevalence Ratio, Difference, Odds Ratio |
+| Cohort | Rate, Risk, Odds, Mean, Median | Rate Ratio, Risk Ratio, Odds, Ratio, Rate Difference, Risk Difference, Vaccine Efficacy, Diff (mean, median) |
+| Case-Control | None[^5] | Odds Ratio, Vaccine Efficacy |
+| Intervention | Rate, Risk, Odds, Mean, Median | Rate Ratio, Risk Ratio, Odds, Ratio, Rate Difference, Risk Difference, Vaccine Efficacy, Diff (mean, median) |
+
+[^5]: Unless the sampling fractions are known for both cases and controls
+
+# Bias, Confounding and Effect Modification
+
+## Introduction
+
+-   In epidemiological research, it is essential to **avoid bias, to control confounding and to undertake accurate replication**. Bias, confounding and random variation/chance are the non-causal reasons for an association between an exposure and outcome.
+
+-   These major threats to **internal validity** of a study should always be considered as **alternative explanations** in the interpretation.
+
+-   Bias is a **mistake** of the researcher; confounding is **not a mistake** and when obvious, it can be controlled; replication is **up to** the researcher.
+
+-   A **valid study** is equivalent to an "unbiased" study - a study that, based on its design, methods, and procedures, will produce (on average) overall results that are close to the truth.
+
+-   Validity therefore is the ability of a test to distinguish between those who have the disease (or any other characteristic) and those who do not.
+
+-   **Sensitivity and specificity** are defined as the two main components of validity. **Sensitivity** is the ability of a test to identify correctly those who have the disease (or characteristic) of interest, while **specificity** is the ability of a test to identify correctly those who do not have the disease (or characteristics) of interest.
+
+### Recap of previous concepts
+
+-   **Sensitivity & Specificity (Validity)**: Measure how `good` a test is at detecting binary features of interest (disease/no disease)
+
+-   Terms
+
+    -   *True positive*: Sick people correctly identified as sick
+    -   *False positive*: Healthy people incorrectly identified as sick
+    -   *True negative*: Healthy people correctly identified as healthy
+    -   *False negative*: Sick people incorrectly identified as helthy
+
+-   Sensitivity and Specificity
+
+    -   Sensitivity = P(Test+\|Disease+)
+
+    -   Specificity = P(Test-\|Disease-)
+
+    -   That is;
+
+        ![](images/sens1.jpg){width="547"}
+
+    -   Which can be illustrated by
+
+        ![](images/sens2.jpg){width="531"}
+
+        **Example**
+
+        There are 1000 people with 30 having disease A. A test designed to identify who has disease and who does not. We want to evaluate how good the test is.
+
+        ![](images/sens3.jpg){width="696"}
+
+        **Exercise:** How would one obtain the following from this test?
+
+        (i) Positive Predictive Value, and
+        (ii) Negative Predictive Value
+
+-   **Internal validity** is a property of scientific studies which reflects the extent to which a causal conclusion based on a study is warranted.
+
+-   **External validity** refers to the degree to which the results of an empirical investigation can be generalized to and across individuals, settings, and times. This can be divided further into:
+
+    (a) **Population validity**:
+
+    <!-- -->
+
+    i.  How representative is the sample of the population? The more representative, the more confident we can be in generalizing from the sample to the population.
+    ii. How widely does the finding apply? Generalizing across populations occurs when a particular research finding works across many different kinds of people, even those not represented in the sample.
+
+    <!-- -->
+
+    (b) **Ecological validity**: Ecological validity is present to the degree that a result generalizes across settings.
+
+In epidemiologic studies, to show a valid statistical association between **exposures** and the **outcome** of interest, we need to assess:
+
+-   **Bias**: whether systematic error has been built into the study design
+-   **Confounding**: whether an extraneous factor is related to both the disease and the exposure
+-   **Role of chance**: how likely is it that what we found is a true finding
+
+## Bias
+
+-   Bias is defined as `any systematic error` in the design or conduct of an epidemiologic study that results in an incorrect estimate of the association between exposure and risk of disease.
+
+-   The systematic error results from **flaws** either in the method of selection of study participants or in the procedures for gathering relevant exposure and/or disease information; as a consequence, the observed study results will tend to be different from the true results.
+
+-   This tendency towards erroneous results is what we refer to as **bias**.
+
+-   Bias, in addition to confounding is an important consideration and is often a major problem in observational epidemiologic studies.
+
+-   **Systematic error (bias), needs to be distinguished from error due to random variability (sampling error)**, which results from the use of a population sample to estimate the study parameters in the reference population.
+
+-   The sample estimates may differ substantially from the true parameter estimates because of random error, especially when the study sample is small.
+
+-   The definition of bias relates to the process- that is, the design and procedures and not the results of any particular study. If the design and procedures of the study are unbiased, the study is considered to be valid because, on average, its results will tend to be correct. A faulty study design is considered to be biased (or invalid) because it will produce and erroneous result on average.
+
+-   **Prevention and control of bias are accomplished on three levels**:
+
+    (a.) Ensuring that the study design is appropriate for addressing the study hypothesis
+
+    (b.) Establishing and carefully monitoring procedures of data collection and that are valid and reliable
+
+    (c.) Using appropriate analytic procedures
+
+### Types of bias
+
+In epidemiologic literature, many types of bias have been described. However, most bias described in the literature, relate to the study design and procedures and can be classified in two basic categories: ***selection and information***.
+
+Therefore, there are two major classes of bias:
+
+(a.) Selection bias
+
+(b.) Information (observation) bias
+
+#### (A) Selection bias
+
+-   Selection bias is a distortion in the estimate of association between `risk factor and disease` that results from how the subjects are selected for the study.
+
+-   Selection bias could occur because the `sampling frame is sufficiently different from the target population` or because the `sampling procedure cannot be expected to deliver a sample that is a mirror image of the sampling frame`.
+
+-   Selection bias is present when individuals have `different probabilities` of being included in the study sample according to relevant study characteristics-namely, the exposure and outcome of interest.
+
+-   Simply, selection bias can be defined as **error due to systematic difference between the characteristics of the people selected for a study and those who are not**.
+
+-   Selection bias is an important/major problem in case-control and retrospective cohort studies while it is less likely to occur in a prospective cohort study. Selection bias cannot be completely excluded in a case-control study because non-participation between cases and control subjects may have differed.
+
+#### Sources of Selection Bias
+
+-   **Design**: Design bias is an error that can occur due to fault in the study design (as studies done on poorly defined populations or with unsuitable control groups).
+
+-   **Sampling**: Sampling bias occurs when a non-random sample of the population is considered.
+
+-   **Ascertainment**: Ascertainment bias is the result of failure to represent all classes of persons supposed to be represented in the sample
+
+-   **Berkson**: Berkson’s bias occurs in case-control hospital-based studies when the combination of the exposure and the outcome understudy increases the rate of admission to hospital.
+
+-   **Self-selection (Response)**: Self-selection bias occurs when there is difference in characteristics between those who volunteer to participate in a study and those who do not.
+
+-   **Healthy worker effect**: Healthy worker effect occurs when studies are performed in working place and the disease understudy makes people unavailable
+
+-   **Non-response**: Non-response bias occurs due to refusal or non-response among study groups.
+
+**Hypothetical Example of selection bias**
+
+The following table gives a hypothetical depiction of **selection bias** in the context of a case-control study. For ease of understanding, we assume that *confounding, variability and information bias* is absent. The result in this table represents the “**gold standard**” against the results in the next tables
+
+![](images/tab1.jpg){width="545"}
+
+Odds Ratio = $\frac{500/500}{1800/7200} = 4.0$
+
+Now, suppose we include in our study a 50% unbiased sample of cases and a 10% unbiased sample of controls of the reference population; then we have the following table:
+
+![](images/tab2.jpg){width="550"}
+
+Odds Ratio = $\frac{250/250}{180/720} = 4.0$
+
+**Consequences**: Unbiased exposure odds in cases and controls and finally unbiased odds ratio.
+
+Alternatively, if we take a sample of 50% of cases and 10% of controls but have selection bias in choosing cases as shown in the following table, then the consequences as different as indicated.
+
+![](images/tab3.jpg)
+
+Odds Ratio = $\frac{300/200}{180/720} = 6.0$
+
+This is differential sampling that may be unknown to the investigator. The consequence of this is biased exposure odds in cases but unbiased exposure odds in controls leading to biased odds ratio (6.0 instead of 4.0)
+
+#### (B) Information (observation, measurement) bias
+
+Error due to **systematic differences in the way data on exposure or outcome are obtained from various groups leading to misclassification of study subjects**.
+
+When the information obtained from study participants is **systematically inaccurate regarding the disease or exposure** under study, information bias may occur. Whenever the **accuracy of the information** about exposure is different in cases and controls, a **differential information bias** occurs. Such bias could result in an over- or under-estimate of the real association depending on the circumstances. For example, if exposure is under-recognized in cases, an underestimation of a **positive association** will occur, but if exposure is under-recognized in controls, an **overestimation of a positive association** will occur.
+
+#### Sources of Information Bias
+
+There are several sources of information bias; here, we will present the most common ones
+
+-   **Recall**: Recall bias occurs when individuals (cases and/or controls) remember differently previous events. Those with a particular outcome or exposure may remember events more clearly or amplify their recollections.
+
+-   **Prevarication**: Prevarication bias results from selective revealing or suppression of information.
+
+-   **Reporting**: Reporting bias occurs when the data source in one study group differs from the other study group
+
+-   **Loss of follow-up (withdrawal)**: Loss of follow-up (withdrawal) bias is expected to occur in prospective studies with long follow-up periods. Those that are lost to follow-up or who withdraw from the study may be different from those who are followed for the entire study.
+
+-   **Missing data**: Missing data bias is expected to occur when incomplete records are chosen as source of information.
+
+-   **Observer (interviewer)**: The observer (interviewer) bias results from systemic differences in repeated measurements from the same observer (intra-observer) or inconsistencies attributed to differences in the way applied by different observers (inter-observer). An interviewer’s knowledge may influence the structure of questions and the manner of presentation, which may influence responses.
+
+-   **Hawthorne effect**: An effect first documented at a Hawthorne manufacturing plant; people act differently if they know they are being watched
+
+-   **Misclassification bias**: Errors are made in classifying either disease or exposure status. If data are incorrect or incomplete, misclassification of groups and spurious associations may be introduced. Misclassification may affect both groups and masks the true association (**random or non-differential**). Misclassification may affect only one group leading to either over-estimation or under-estimation of an association (**non-random or differential**).
+
+-   **Differential misclassification** – Errors in measurement are one way only
+
+![](images/tab4.jpg)
+
+![](images/tab5.jpg)
+
+![](images/tab6.jpg)
+
+#### Controls for Bias
+
+In practice, bias can’t be totally prevented. Consequently, it is always necessary to consider carefully the influence of bias on the study results and to assess the validity and repeatability of the findings. The following are some of the methods that one can use to control/avoid bias in a study:
+
+-   Be purposeful in the study design to minimize the chance for bias
+
+    -   Example: use more than one control group
+
+-   Define, a priori, who is a case or what constitutes exposure so that there is no overlap
+
+    -   Define categories within groups clearly (age groups, aggregates of person years)
+
+-   Set up strict guidelines for data collection
+
+    -   Train observers or interviewers to obtain data in the same fashion
+    -   It is preferable to use more than one observer or interviewer, but not so many that they cannot be trained in an identical manner
+
+-   Randomly allocate observers/interviewer data collection assignments
+
+-   Institute a masking process if appropriate
+
+    -   Single masked study – subjects are unaware of whether they are in the experimental or control group
+
+    -   Double masked study – the subject and the observer are unaware of the subject’s group allocation
+
+    -   Triple masked study – the subject, observer and data analyst are unaware of the subject’s group allocation
+
+-   Build in methods to minimize loss to follow-up
+
+Identification of possible bias is a difficult exercise but is crucial to improve validity. Bias is most effectively dealt with through careful design and meticulous conduct of study. If potential source of bias is introduced, it is usually difficult to correct for its effect analytically.
+
+NB: **There are some forms of bias that have both selection and information components. These include, medical surveillance (or detection) bias, cross-sectional bias (incidence-prevalence bias, temporal bias) among others.**
 
 # **Useful links / Recommended books**
 
