@@ -4,7 +4,7 @@ author:
 - name: Henry Athiany
   affiliation: JKUAT, Kenya
 #subtitle:  Class notes - Recap for Previous Lecture
-date: September - December, 2024
+date: September - December, 2025
 output:
   rmdformats::readthedown:
     highlight: kate
