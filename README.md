@@ -33,3 +33,6 @@ By the end of this course the student should be able to;
 -   Simple regression models in epidemiological analysis.
 
 -   Developing clinical prediction rules, analyses of community-level associations or interventions, case-crossover and case-only designs, propensity scores.
+
+## Class Notes
+To access class notes for this unit, use the following link https://rpubs.com/hathiany/1321245
