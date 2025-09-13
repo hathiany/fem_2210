@@ -1,4 +1,6 @@
 # STA 2210 - Fundamentals of Epidemiological Methods
+## Purpose
+To enable student to define epidemiology and describe the basic principles and methods of epidemiology
 
 ## Course Outline
 
@@ -33,6 +35,9 @@ By the end of this course the student should be able to;
 -   Simple regression models in epidemiological analysis.
 
 -   Developing clinical prediction rules, analyses of community-level associations or interventions, case-crossover and case-only designs, propensity scores.
+
+## Course Text Books, Journal
+See class notes
 
 ## Class Notes
 To access class notes for this unit, use the following link https://rpubs.com/hathiany/1321245
